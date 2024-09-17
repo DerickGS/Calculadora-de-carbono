@@ -1,5 +1,8 @@
-import logo from '../assets/_iconLogo.png'
- 
+import Header from '../components/Header'
+import styles from './Inicio.module.css'
+
+import Logo from '../assets/_iconLogo.png'
+
 function Inicio() {
 
 
@@ -8,8 +11,11 @@ function Inicio() {
     
     
     <body>
+        <Header/>
+        <main className={styles}>
         <p>Inicio</p>
-        <img src={logo} alt="sal" />
+        <img src={Logo} alt="sal" />
+        </main>
     </body>
     
     )
