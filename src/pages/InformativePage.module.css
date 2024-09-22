@@ -1,0 +1,30 @@
+
+._backgroundImage{
+    background: url(../img/capa-site.jpeg);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 3rem
+}
+
+._title{
+    margin-bottom: 3rem;
+    div{
+        text-align: center;
+    }
+}
+
+td {
+    text-align: center;
+}
+
+._cardInfo{
+    text-align: center;
+    margin-inline: 15%;
+
+    img{
+        margin-bottom: 20px;
+    }
+}
