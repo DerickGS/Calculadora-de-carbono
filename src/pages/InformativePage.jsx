@@ -1,5 +1,5 @@
 import Header from "../components/Header"
-import Footer from "../components/footer"
+import Footer from "../components/Footer"
 
 import Correct from "../img/correct.png"
 import Wrong from "../img/wrong.png"
