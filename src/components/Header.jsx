@@ -18,7 +18,6 @@ function Header() {
 
     setAbrirMenu(true)
 }
-
     return (
         <header>
             <div className={styles.desktop}>
@@ -73,7 +72,7 @@ function Header() {
                         </button>
                 </div>
                 <div className={`${styles.close} ${abrirMenu === true && styles.open}`}>
-                    <nav className={styles.options_menu}>
+                    <nav className={styles.options_menuMobile}>
                         <Link to={"/Home"}><p translate="no" className={styles.option}> Home</p></Link>
                         <hr />
                         <Link to={"/InformativePage"}><p className={styles.option}>Informativo</p></Link>
@@ -87,7 +86,9 @@ function Header() {
                 </div>
             </div>
         </header>
+        
     )
 }
 
 export default Header
+

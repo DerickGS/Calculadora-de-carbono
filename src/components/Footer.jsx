@@ -20,7 +20,7 @@ function Footer() {
                 />
             </div>    
             <div className={styles._footer}>
-                <p className='text-x'>© 2024</p>
+                <p>© 2024</p>
             </div>
         </footer>
     )
