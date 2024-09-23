@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 
+.mobile{
+    display: none;
+}
 
-.desktop {
+.desktopComponents, .mobileComponents{
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -28,10 +31,10 @@
         .icon{
             width: 20px;
             height: 20px;
-            fill: rgb(128, 128, 128);
+            color: rgb(128, 128, 128);
         }
         .icon:hover{
-            fill: black;
+            color: black;
         }
     
     }
@@ -79,11 +82,37 @@ header {
 
 
 @media (max-width: 768px) {
-    .desktop{
+    .desktopComponents{
         justify-content: space-between;    
     }
     .options_menu{
         margin-left: 0;
         right: 10px;
+    }
+}
+
+@media  (max-width: 425px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        height: 100%;
+    }
+    .mobileComponents{
+        justify-content: space-between;
+    }
+    .options_menu{
+        right: 0px;
+        text-align: center;
+        
+        hr{
+            margin-inline: 10px;
+        }
+    }
+
+    .icon{
+        width: 25px;
+        height: 25px;
     }
 }

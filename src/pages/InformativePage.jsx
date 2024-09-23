@@ -175,7 +175,7 @@ function InformativePage() {
           </div>
 
           <div className={styles._cardInfo}>
-            <div className="alert alert-warning alert-dismissible fade show" role="alert">
+            <div className="alert alert-warning fade show" role="alert">
               <img 
               src= {Question}
               alt="" 
