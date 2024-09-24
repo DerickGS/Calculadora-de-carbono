@@ -22,9 +22,24 @@ td {
 
 ._cardInfo{
     text-align: center;
-    margin-inline: 15%;
+    margin: 2rem 10% 0 10%;
 
     img{
         margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    th{
+        font-size: 0.7rem;
+
+        p{
+            font-size: 0.7rem;
+        }
+    }
+    img{
+        width: 20px;
+        height: 20px;
     }
 }

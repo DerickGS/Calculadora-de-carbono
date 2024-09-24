@@ -30,13 +30,13 @@ function InformativePage() {
               <thead className="table table-dark">
                 <tr>
                   <th></th>
-                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://co2.myclimate.org/en/calculate_emissions">My Climate</a></th>
-                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://www.footprintcalculator.org/home/en">Footprint</a></th>
-                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://calculator.moss.earth/">Moss</a></th>
-                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://iniciativaverde.org.br/calculadora">Iniciativa Verde</a></th>
-                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://www.sosma.org.br/calcule-sua-emissao-de-co2">SOS Mata Atlântica</a></th>
-                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://compensa.eco/calculadora/empresas/">Compensa</a></th>
-                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://www.biofilica.com.br/calculadora-de-carbono-biofilica/">Biolífica</a></th>
+                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://co2.myclimate.org/en/calculate_emissions"><p>My Climate</p></a></th>
+                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://www.footprintcalculator.org/home/en"><p>Footprint</p></a></th>
+                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://calculator.moss.earth/"><p>Moss</p></a></th>
+                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://iniciativaverde.org.br/calculadora"><p>Iniciativa Verde</p></a></th>
+                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://www.sosma.org.br/calcule-sua-emissao-de-co2"><p>SOS Mata Atlântica</p></a></th>
+                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://compensa.eco/calculadora/empresas/"><p>Compensa</p></a></th>
+                  <th scope="col"><a className="btn btn-outline-light" translate="no" href="https://www.biofilica.com.br/calculadora-de-carbono-biofilica/"><p>Biolífica</p></a></th>
                 </tr>
               </thead>
               <tbody>
