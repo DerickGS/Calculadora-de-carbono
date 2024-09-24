@@ -3,6 +3,7 @@ import { useState } from "react"
 
 import styles from "./Header.module.css"
 import Logo from "../assets/_iconLogo.png"
+import FFWD from "../img/FFWD.png"
 import {CaretDown, List, X} from "phosphor-react"
 
 
@@ -54,22 +55,22 @@ function Header() {
                 <div className={styles.mobileComponents}>
                     <div className={styles.mark_imgText}>
                         <Link to={"/Home"}>
-                            <img 
-                            src={Logo} 
-                            alt="Logo da empresa" 
-                            className={styles.logo}
+                            <img
+                            className={styles.logo_FFWD} 
+                            src={FFWD} 
+                            alt="" 
                             />
                         </Link>
                     </div>
-                        <button onClick={handleAbrirFecharMenu}>
-                        {
-                            abrirMenu === true ? (
-                            <X className={styles.icon} size={32} />
-                            ) : (
-                            <List className={styles.icon} size={32} />
-                            )
-                        }
-                        </button>
+                    <button onClick={handleAbrirFecharMenu}>
+                    {
+                        abrirMenu === true ? (
+                        <X className={styles.icon} size={32} />
+                        ) : (
+                        <List className={styles.icon} size={32} />
+                        )
+                    }
+                    </button>
                 </div>
                 <div className={`${styles.close} ${abrirMenu === true && styles.open}`}>
                     <nav className={styles.options_menuMobile}>

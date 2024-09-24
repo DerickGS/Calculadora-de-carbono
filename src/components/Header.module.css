@@ -127,4 +127,9 @@ header {
         width: 25px;
         height: 25px;
     }
+
+    .logo_FFWD{
+        width: auto;
+        height: 2.2rem;
+    }
 }
