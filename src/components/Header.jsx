@@ -77,7 +77,7 @@ function Header() {
                         <hr />
                         <Link to={"/InformativePage"}><p className={styles.option}>Informativo</p></Link>
                         <hr />
-                        <Link to={"/"}><p className={styles.option}>Calculadoar CO₂</p></Link>
+                        <Link to={"/CalculationPage"}><p className={styles.option}>Calculadoar CO₂</p></Link>
                         <hr />
                         <Link to={"/"} className={styles.button_options} ><p>Curiosidade</p></Link>
                         <hr />
