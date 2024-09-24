@@ -1,10 +1,19 @@
 import { Link } from "react-router-dom"
 
+
 import styles from "./Footer.module.css"
 import Logo from "../assets/_iconLogo.png"
 
 
 function Footer() {
+
+    const scrollToTop = () => {
+        window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+        })
+    } 
+
     return (
         <footer>
             <div className={styles._grid}>
@@ -15,6 +24,7 @@ function Footer() {
             <hr />
             <div className={styles._imgLogo}>
                 <img 
+                onClick={scrollToTop}
                 src={Logo} 
                 alt="logo" 
                 />

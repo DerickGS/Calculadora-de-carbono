@@ -20,6 +20,12 @@ td {
     text-align: center;
 }
 
+th{
+    a{
+        width: 100%;
+    }
+}
+
 ._cardInfo{
     text-align: center;
     margin: 2rem 10% 0 10%;
@@ -41,5 +47,9 @@ td {
     img{
         width: 20px;
         height: 20px;
+    }
+    table{
+        overflow-x: auto ;
+        margin-inline: 5%;
     }
 }

@@ -1,5 +1,5 @@
 respansividade header ✅
-respansividade footer
+respansividade footer ✅
 
 paginas
     Calculadora
