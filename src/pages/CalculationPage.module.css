@@ -1,0 +1,163 @@
+._backgroundImage{
+    background: url(../img/capa-site.jpeg);
+    height: 40vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 3rem
+}
+
+.comentarios_pequenos {
+    font-size: x-small;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.navegacao {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+
+}
+
+footer {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.capa_superior img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+    max-height: 390px;
+    min-height: 200px;
+
+}
+
+.container_calc {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.45);
+    width: 50%;
+    margin: auto;
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.titulo {
+    text-align: center;
+}
+
+
+.transporte_container {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.container_calc h3 {
+    text-align: center;
+    margin-top: 0;
+    color: #45a049;
+}
+
+.transporte_container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.transporte_container input,
+.transporte_container select {
+    width: 98%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.botao_calc {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao_calc:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.comentarios_pequenos {
+    font-size: x-small;
+}
+
+.centralizar_botao {
+    text-align: center;
+
+}
+
+
+
+/* Media ****************************************************************************************************************8*/
+
+/* XX-Large devices */
+@media (max-width: 1400px) {
+    .container_calc {
+        width: 50%;
+    }
+
+}
+
+/* X-Large devices */
+@media (max-width: 1200px) {
+    .container_calc {
+        width: 60%;
+    }
+
+}
+
+/* Large devices */
+@media (max-width: 992px) {
+    .container_calc {
+        width: 70%;
+    }
+
+}
+
+/* Medium devices */
+@media (max-width: 768px) {
+    .container_calc {
+        width: 80%;
+    }
+
+}
+
+/* Small devices */
+@media (max-width: 576px) {
+    .container_calc {
+        width: 90%;
+    }
+
+
+}

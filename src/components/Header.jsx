@@ -35,7 +35,7 @@ function Header() {
                     <div className={styles.options}>
                         <Link to={"/Home"}><p translate="no" className={styles.option}> Home</p></Link>
                         <Link to={"/InformativePage"}><p className={styles.option}>Informativo</p></Link>
-                        <Link to={"/"}><p className={styles.option}>Calculadoar CO₂</p></Link>
+                        <Link to={"/CalculationPage"}><p className={styles.option}>Calculadoar CO₂</p></Link>
                         <button onClick={handleAbrirFecharMenu}>
                             <CaretDown className={styles.icon} size={32} />
                         </button>
