@@ -9,26 +9,26 @@ function Footer() {
 
     const scrollToTop = () => {
         window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
+            top: 0,
+            behavior: 'smooth'
         })
-    } 
+       }
 
     return (
         <footer>
             <div className={styles._grid}>
-                <Link to ={""}>Curiosidades</Link>
-                <Link to ={""}>Contato</Link>
-                <Link to ={""}>Equipe</Link>
+                <Link to ={"/"}>Curiosidades</Link>
+                <Link to ={"/"}>Contato</Link>
+                <Link to ={"/"}>Equipe</Link>
             </div>
             <hr />
-            <div className={styles._imgLogo}>
+            <dv className={styles._imgLogo}>
                 <img 
                 onClick={scrollToTop}
                 src={Logo} 
                 alt="logo" 
                 />
-            </div>    
+            </dv>    
             <div className={styles._footer}>
                 <p>© 2024</p>
             </div>

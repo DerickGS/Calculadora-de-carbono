@@ -2,7 +2,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import styles from "./CalculationPage.module.css"
-// import {calcularPegada} from "../js/CalculationPage" 
+import {calcularPegada} from "../js/CalculationPage" 
 
 function CalculationPage() {
     return (
@@ -43,7 +43,7 @@ function CalculationPage() {
                             </p>
                         </div>
                     </div>
-                    {/* <button className="botao_calc" onClick={calcularPegada()}>Calcular Pegada de Carbono</button> */}
+                    <button className={styles.botao_calc} onClick={calcularPegada}>Calcular Pegada de Carbono</button>
                     <p className={styles.comentarios_pequenos}>Atenção: <strong>não</strong> deixe campos vazios.</p>
                     <h3>Pegada de Carbono Total:</h3>
                     <h2 id="resultado">0 toneladas de CO₂</h2>
