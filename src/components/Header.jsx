@@ -45,7 +45,7 @@ function Header() {
                 <div className={`${styles.close} ${abrirMenu === true && styles.open}`}>
                     <nav className={styles.options_menu}>
                         <Link to={"/"} className={styles.button_options} ><p>Curiosidade</p></Link>
-                        <Link to={"/"} className={styles.button_options} ><p>Equipe</p></Link>
+                        <Link to={"/TeamPage"} className={styles.button_options} ><p>Equipe</p></Link>
                     </nav>
                 </div>
             </div>

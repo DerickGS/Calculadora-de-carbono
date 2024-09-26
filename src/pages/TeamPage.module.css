@@ -1,0 +1,96 @@
+._backgroundImage{
+    background: url(../img/capa-site.jpeg);
+    height: 40vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+}
+
+._title{
+    margin-bottom: 3rem;
+}
+
+._gridCards{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-inline: 40px;
+}
+
+._cards{
+    width: 200px;
+    border: 1px solid rgb(177, 178, 179);
+    border-radius: 5px;
+    display: block;
+
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}   
+
+._cards:hover{
+    box-shadow: 20px 20px 15px -3px rgba(0,0,0,0.1);
+}
+
+._imgCards{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+._titleCards{
+    text-align: center;
+    margin: 10px 5px;
+}
+
+._contacts{
+    background-color: rgba(177, 178, 179, 0.314);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-bottom: -1rem;
+
+    padding: 5px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin-inline: 10%;
+}
+
+._contacts:hover{
+    /* background-color: rgba(182, 214, 247, 0.314); */
+    transition: ease-in-out 0.3s;
+    background: rgba(2, 192, 195, 0.314);
+    background: linear-gradient(0deg, rgba(2, 192, 195, 0.314) 0%, rgba(221, 187, 45, 0.314) 100%);
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+
+    ._contactsLogoIsta, ._contactsLogoGit, ._contactsLogoLinkdin{
+        transition: 0.3s;
+    }
+}
+
+._contactsLogoIsta, ._contactsLogoGit, ._contactsLogoLinkdin{
+    color: rgb(161, 162, 163);
+    border-radius: 5px;
+}
+._contactsLogoIsta:hover{
+    transition: ease-in-out 0.3s;
+    color: rgb(255, 255, 255);
+    background: #833ab4;
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+._contactsLogoGit:hover{
+    transition: ease-in-out 0.3s;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}
+
+._contactsLogoLinkdin:hover{
+    transition: ease-in-out 0.3s;
+    color: rgb(255, 255, 255);
+    background: rgb(14, 118, 168);
+}

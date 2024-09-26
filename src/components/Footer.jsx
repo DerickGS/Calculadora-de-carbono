@@ -19,7 +19,7 @@ function Footer() {
             <div className={styles._grid}>
                 <Link to ={"/"}>Curiosidades</Link>
                 <Link to ={"/"}>Contato</Link>
-                <Link to ={"/"}>Equipe</Link>
+                <Link to ={"/TeamPage"}>Equipe</Link>
             </div>
             <hr />
             <dv className={styles._imgLogo}>
