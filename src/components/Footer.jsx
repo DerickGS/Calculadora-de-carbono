@@ -17,8 +17,8 @@ function Footer() {
     return (
         <footer>
             <div className={styles._grid}>
-                <Link to ={"/"}>Curiosidades</Link>
-                <Link to ={"/"}>Contato</Link>
+                <Link to ={"/CuriosityPage"}>Curiosidades</Link>
+                <Link to ={"/ContactPage"}>Contato</Link>
                 <Link to ={"/TeamPage"}>Equipe</Link>
             </div>
             <hr />

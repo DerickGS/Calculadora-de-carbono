@@ -44,7 +44,7 @@ function Header() {
                 </div>
                 <div className={`${styles.close} ${abrirMenu === true && styles.open}`}>
                     <nav className={styles.options_menu}>
-                        <Link to={"/"} className={styles.button_options} ><p>Curiosidade</p></Link>
+                        <Link to={"/CuriosityPage"} className={styles.button_options} ><p>Curiosidade</p></Link>
                         <Link to={"/TeamPage"} className={styles.button_options} ><p>Equipe</p></Link>
                     </nav>
                 </div>
@@ -80,7 +80,7 @@ function Header() {
                         <hr />
                         <Link to={"/CalculationPage"}><p className={styles.option}>Calculadoar CO₂</p></Link>
                         <hr />
-                        <Link to={"/"} className={styles.button_options} ><p>Curiosidade</p></Link>
+                        <Link to={"/CuriosityPage"} className={styles.button_options} ><p>Curiosidade</p></Link>
                         <hr />
                         <Link to={"/TeamPage"} className={styles.button_options} ><p>Equipe</p></Link>
                     </nav>
