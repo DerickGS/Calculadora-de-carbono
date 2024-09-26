@@ -1,8 +1,0 @@
-{
-    "routes": [
-      {
-        "src": "/./Calculadora_de_carbono/index.html*",
-        "dest": "/index.html"
-      }
-    ]
-  }
