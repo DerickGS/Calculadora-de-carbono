@@ -9,7 +9,7 @@ function CuriosityPage() {
         <main>
             <Header/>
             <body>
-                <h1 className={styles} >Curuiosidades</h1>
+                <h1 className={styles} >Curiosidades</h1>
             </body>
             <Footer/>
         </main>

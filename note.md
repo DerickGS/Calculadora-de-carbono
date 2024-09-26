@@ -3,12 +3,13 @@ respansividade footer ✅
 
 paginas
     Calculadora
+        nao pode retornar sem estra com a tabela completa
     Curiosidade
-    Equipe
+    Equipe ✅
     Contato!!!!!!!!!!
 
 respansividade
-    Calculadora
+    Calculadora ✅
     Curiosidade
-    Equipe
+    Equipe ✅ 
     Contato!!!!!!!!!!
