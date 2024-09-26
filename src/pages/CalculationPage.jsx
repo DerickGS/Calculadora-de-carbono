@@ -65,52 +65,52 @@ function CalculationPage() {
                         <tbody>
                             <tr>
                                 <td ><p>1</p></td>
-                                <td><p>R$0,00</p></td>
-                                <td><p>0</p></td>
-                                <td><p>1 Ano(s)</p></td>
-                                <td>100m<sup>2</sup></td>
+                                <td><p>R$20,00-R$50,00</p></td>
+                                <td><p>10-20 árvores</p></td>
+                                <td><p>10-20 Ano(s)</p></td>
+                                <td>50-100m<sup>2</sup></td>
                             </tr>
                             <tr>
                                 <td ><p>5</p></td>
-                                <td><p>R$0,00</p></td>
-                                <td><p>0</p></td>
-                                <td><p>1 Ano(s)</p></td>
-                                <td>100m<sup>2</sup></td>
+                                <td><p>R$100,00-R$250,00</p></td>
+                                <td><p>50-100 árvores</p></td>
+                                <td><p>10-20 Ano(s)</p></td>
+                                <td>250-500m<sup>2</sup></td>
                             </tr>
                             <tr>
                                 <td><p>10</p></td>
-                                <td><p>R$0,00</p></td>
-                                <td><p>0</p></td>
-                                <td><p>1 Ano(s)</p></td>
-                                <td>100m<sup>2</sup></td>
+                                <td><p>R$200,00-R$500,00</p></td>
+                                <td><p>100-200 árvores</p></td>
+                                <td><p>10-20 Ano(s)</p></td>
+                                <td>500-1.000m<sup>2</sup></td>
                             </tr>
                             <tr>
                                 <td><p>30</p></td>
-                                <td><p>R$0,00</p></td>
-                                <td><p>0</p></td>
-                                <td><p>1 Ano(s)</p></td>
-                                <td>100m<sup>2</sup></td>
+                                <td><p>R$ 500,00-R$ 1.250,00</p></td>
+                                <td><p>250-500 árvores</p></td>
+                                <td><p>10-20 Ano(s)</p></td>
+                                <td>1.250-2.500m<sup>2</sup></td>
                             </tr>
                             <tr>
                                 <td><p>50</p></td>
-                                <td><p>R$0,00</p></td>
-                                <td><p>0</p></td>
-                                <td><p>1 Ano(s)</p></td>
-                                <td>100m<sup>2</sup></td>
+                                <td><p>R$1.000,00-R$2.500,00</p></td>
+                                <td><p>500-1.000 árvores</p></td>
+                                <td><p>10-20 Ano(s)</p></td>
+                                <td>2.500-5.000m<sup>2</sup></td>
                             </tr>
                             <tr>
                                 <td><p>100</p></td>
-                                <td><p>R$0,00</p></td>
-                                <td><p>0</p></td>
-                                <td><p>1 Ano(s)</p></td>
-                                <td>100m<sup>2</sup></td>
+                                <td><p>R$2.000,00-R$5.000,00</p></td>
+                                <td><p>1.000-2.000 árvores</p></td>
+                                <td><p>10-20 Ano(s)</p></td>
+                                <td>5.000-10.000m<sup>2</sup></td>
                             </tr>
                             <tr>
                                 <td><p>500</p></td>
-                                <td><p>R$0,00</p></td>
-                                <td><p>0</p></td>
-                                <td><p>1 Ano(s)</p></td>
-                                <td>100m<sup>2</sup></td>
+                                <td><p>R$10.000,00-R$ 25.000,00</p></td>
+                                <td><p>5.000-10.000 árvores</p></td>
+                                <td><p>10-20 Ano(s)</p></td>
+                                <td>25.000-50.000m<sup>2</sup></td>
                             </tr>
                         </tbody>
                         </table>
