@@ -32,6 +32,7 @@
 }   
 
 ._cards:hover{
+    transition: ease-in-out 0.3s;
     box-shadow: 20px 20px 15px -3px rgba(0,0,0,0.1);
     width: 205px;
     margin: -05px;
@@ -49,9 +50,30 @@
     ._contacts{
         position: sticky;
         transition: ease-in-out 0.3s;
-        background: rgba(2, 192, 195, 0.314);
-        background: linear-gradient(0deg, rgba(2, 192, 195, 0.314) 0%, rgba(221, 187, 45, 0.314) 100%);
+        /* background: rgba(2, 192, 195, 0.314);
+        background: linear-gradient(0deg, rgba(2, 192, 195, 0.314) 0%, rgba(221, 187, 45, 0.314) 100%); */
+        background: linear-gradient(-45deg, rgba(221, 187, 45, 0.314), rgba(2, 195, 105, 0.314), rgba(45, 136, 221, 0.314), rgba(2, 192, 195, 0.314));
+        background-size: 400% 400%;    
         box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+        animation: Gradient 5s ease infinite;
+
+        ._contactsLogoIsta, ._contactsLogoGit, ._contactsLogoLinkdin{
+            width: 35px;
+            height: 35px;
+            color: white;
+        }
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
     }
 }
 
@@ -63,7 +85,7 @@
 
 ._titleCards{
     text-align: center;
-    margin: 10px 5px;
+    margin: 10px 0;
     width: 200px ;
 }
 
