@@ -82,7 +82,7 @@ function Header() {
                         <hr />
                         <Link to={"/"} className={styles.button_options} ><p>Curiosidade</p></Link>
                         <hr />
-                        <Link to={"/"} className={styles.button_options} ><p>Equipe</p></Link>
+                        <Link to={"/TeamPage"} className={styles.button_options} ><p>Equipe</p></Link>
                     </nav>
                 </div>
             </div>
