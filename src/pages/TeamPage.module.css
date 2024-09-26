@@ -103,8 +103,13 @@
     ._cards{
         margin-bottom: 2rem;
     }
+}
 
-    ._cards:hover-enabled:hover{
-        background: #000;
+@media (max-width: 520px) {
+    ._gridCards{
+        grid-template-columns: 200px;
+    }
+    ._cards{
+        margin-bottom: 2rem;
     }
 }

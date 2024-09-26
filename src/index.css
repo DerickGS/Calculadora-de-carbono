@@ -9,6 +9,10 @@
   background-color: transparent;
 }
 
+body{
+  height: auto;
+}
+
 a{
   text-decoration: none;
 }
