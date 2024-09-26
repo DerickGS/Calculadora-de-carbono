@@ -11,7 +11,7 @@ import CuriosityPage from "./pages/CuriosityPage"
 function Router() {
     return(
         <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/" exact element={<Home />} />
                 <Route path="/Home" element={<Home />} />
                 <Route path="/InformativePage" element={<InformativePage />} />
                 <Route path="/CalculationPage" element={<CalculationPage />} />
