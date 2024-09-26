@@ -119,6 +119,14 @@ h2 {
 }
 
 
+._tabela{
+    margin: 3rem 10%;
+
+    th{
+        text-align: center;
+    }
+}
+
 
 /* Media ****************************************************************************************************************8*/
 
@@ -150,6 +158,27 @@ h2 {
 @media (max-width: 768px) {
     .container_calc {
         width: 80%;
+    }
+
+    th, tr{
+        font-size: 0.7rem;
+
+        p{
+            font-size: 0.7rem;
+        }
+    }
+
+    th{
+        min-width: 10rem;
+    }
+
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    table{
+        overflow-x: auto ;
+        margin-inline: 5%;
     }
 
 }

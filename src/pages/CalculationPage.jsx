@@ -48,6 +48,74 @@ function CalculationPage() {
                     <h3>Pegada de Carbono Total:</h3>
                     <h2 id="resultado">0 toneladas de CO₂</h2>
                 </div>
+
+
+                <div className={styles._tabela}>
+                    <div className="tabela container table-responsive">
+                        <table className="table table-bordered table-hover">
+                        <thead className="table table-dark">
+                            <tr>
+                                <th scope="col"><p>CO<sub>2</sub> em Toneladas</p></th>
+                                <th scope="col"><p>Preço para compensar</p></th>
+                                <th scope="col"><p>Equivale a quantas àrvores</p></th>
+                                <th scope="col"><p>Tempo necessário</p></th>
+                                <th scope="col"><p>Área restaurada m<sup>2</sup></p></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td ><p>1</p></td>
+                                <td><p>R$0,00</p></td>
+                                <td><p>0</p></td>
+                                <td><p>1 Ano(s)</p></td>
+                                <td>100m<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td ><p>5</p></td>
+                                <td><p>R$0,00</p></td>
+                                <td><p>0</p></td>
+                                <td><p>1 Ano(s)</p></td>
+                                <td>100m<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td><p>10</p></td>
+                                <td><p>R$0,00</p></td>
+                                <td><p>0</p></td>
+                                <td><p>1 Ano(s)</p></td>
+                                <td>100m<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td><p>30</p></td>
+                                <td><p>R$0,00</p></td>
+                                <td><p>0</p></td>
+                                <td><p>1 Ano(s)</p></td>
+                                <td>100m<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td><p>50</p></td>
+                                <td><p>R$0,00</p></td>
+                                <td><p>0</p></td>
+                                <td><p>1 Ano(s)</p></td>
+                                <td>100m<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td><p>100</p></td>
+                                <td><p>R$0,00</p></td>
+                                <td><p>0</p></td>
+                                <td><p>1 Ano(s)</p></td>
+                                <td>100m<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td><p>500</p></td>
+                                <td><p>R$0,00</p></td>
+                                <td><p>0</p></td>
+                                <td><p>1 Ano(s)</p></td>
+                                <td>100m<sup>2</sup></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                </div>
             </main>
             <Footer/>
         </body>
