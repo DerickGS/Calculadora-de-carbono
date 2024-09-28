@@ -5,6 +5,7 @@ import styles from "./Header.module.css"
 import Logo from "../assets/_iconLogo.png"
 import FFWD from "../img/FFWD.png"
 import {CaretDown, List, X} from "phosphor-react"
+import {House, Info, Calculator, Question, UsersThree} from "phosphor-react"
 
 
 function Header() {
@@ -74,15 +75,15 @@ function Header() {
                 </div>
                 <div className={`${styles.close} ${abrirMenu === true && styles.open}`}>
                     <nav className={styles.options_menuMobile}>
-                        <Link to={"/Home"}><p translate="no" className={styles.option}> Home</p></Link>
+                        <Link to={"/Home"}><p translate="no" className={styles.option}> Home <House size={21} /></p></Link>
                         <hr />
-                        <Link to={"/InformativePage"}><p className={styles.option}>Informativo</p></Link>
+                        <Link to={"/InformativePage"}><p className={styles.option}>Informativo <Info size={21} /></p></Link>
                         <hr />
-                        <Link to={"/CalculationPage"}><p className={styles.option}>Calculadora CO₂</p></Link>
+                        <Link to={"/CalculationPage"}><p className={styles.option}>Calculadora CO₂ <Calculator size={21} /></p></Link>
                         <hr />
-                        <Link to={"/CuriosityPage"} className={styles.button_options} ><p>Curiosidade</p></Link>
+                        <Link to={"/CuriosityPage"} className={styles.button_options} ><p>Curiosidade <Question size={21} /></p></Link>
                         <hr />
-                        <Link to={"/TeamPage"} className={styles.button_options} ><p>Equipe</p></Link>
+                        <Link to={"/TeamPage"} className={styles.button_options} ><p>Equipe <UsersThree size={21} /></p></Link>
                     </nav>
                 </div>
             </div>
