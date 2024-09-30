@@ -30,6 +30,9 @@ function Home() {
                         <img className={styles._imgHome} src={heatWave} alt="" />
                         <figcaption>Foto: Tomaz Silva/Agência Brasil/Divulgação</figcaption>
                     </figure>
+
+                    <hr />
+
                     <h2>Momento Histórico</h2>
                     <i><h4>Início da alta emissão de carbono no mundo</h4></i>
                     <p>A <a href="https://brasilescola.uol.com.br/historiag/revolucao-industrial.htm">Revolução Industrial, no século XVIII</a>, marcou o início de uma intensa emissão de carbono, uma vez que houve a transição de métodos de produção manuais para o uso de máquinas movidas a carvão e, em seguida, a petróleo. Este período representou um salto significativo na capacidade produtiva das sociedades, mas também iniciou uma era de emissões descontroladas de gases de efeito estufa.</p>
@@ -39,6 +42,9 @@ function Home() {
                         <figcaption>Foto: Michael Kodas / Inside Climate News</figcaption>
                     </figure>
                     <p>Além disso, a crescente dependência do transporte motorizado, a expansão da agricultura industrial e o desmatamento acelerado nas décadas subsequentes contribuíram para aumentar ainda mais as emissões. A demanda por veículos movidos a gasolina e diesel, associada à derrubada de florestas para abrir espaço para a agropecuária, foram fatores essenciais para a contínua alta nas emissões de carbono.</p>
+                    
+                    <hr />
+
                     <h2>Preocupação Global</h2>
                     <i><h4>Momento em que o mundo se dá conta do impacto do CO₂</h4></i>
                     <p>A preocupação global com as emissões de carbono começou a ganhar força a partir das décadas de 1970 e 1980, quando cientistas começaram a alertar sobre os efeitos devastadores das mudanças climáticas causadas pelo aumento das emissões de gases de efeito estufa. O ¨Relatório Charney¨ de 1979 foi um marco inicial, alertando que o aumento de CO₂ poderia causar um aumento significativo na temperatura global.</p>
@@ -48,6 +54,9 @@ function Home() {
                         <figcaption>Foto: Unsplash/Marcin Jozwiak</figcaption>
                     </figure>
                     <p>Com o passar dos anos, a consciência sobre os impactos das mudanças climáticas se intensificou, levando vários países a adotarem políticas de mitigação e a firmarem acordos internacionais para reduzir as emissões de carbono. A crescente incidência de desastres naturais atribuídos ao aquecimento global reforçou a percepção global de que era necessário tomar medidas drásticas.</p>
+                    
+                    <hr />
+                    
                     <h2>O Brasil</h2>
                     <i><h4>Nosso país no enfrentamento à mudança climática</h4></i>
                     <p>Desde 1995, as Conferências das Partes (COPs) da Convenção-Quadro das Nações Unidas sobre Mudança do Clima (UNFCCC) reúnem líderes mundiais para discutir ações globais contra o aquecimento global. Essas conferências resultaram em importantes compromissos internacionais, como o Protocolo de Kyoto, adotado em 1997 e válido de 2005 a 2020, e o Acordo de Paris, firmado em 2015 e em vigor desde 2016.</p>

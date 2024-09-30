@@ -19,6 +19,7 @@
     h2 {
         text-align: left;
         margin: 1rem 0;
+        font-size: 1.8rem;
     }
 
     ._imgHome{
@@ -38,5 +39,17 @@
     }
     figure{
         margin: 2rem 0;
+    }
+
+    @media (max-width: 767px) {
+
+            ._backgroundImage{
+                height: 220px;
+            }
+
+            figcaption{
+                font-size: .6rem;
+            }
+        
     }
 }
