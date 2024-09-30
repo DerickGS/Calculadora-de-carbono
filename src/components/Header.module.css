@@ -44,16 +44,25 @@
     }
     
 }   
+
+.desktop{
+}
 .close{
-    /* display: none; */
-    transition: transform .3s;
-    transform: translateY(-100%);
-    background: hsl(210, 17%, 98%); 
-    box-shadow: 0px 10px 32px 0px rgba(0, 0, 0, 0.1);
+    display: none;
 }
 
-.close.open{
-    transform: translateY(0);
+.mobile{
+    .close{
+        display: block;
+        transition: transform .3s;
+        transform: translateY(-100%);
+        background: hsl(210, 17%, 98%); 
+        box-shadow: 0px 10px 32px 0px rgba(0, 0, 0, 0.1);
+    }
+    
+    .close.open{
+        transform: translateY(0);
+    }
 }
 .open{
     display: flex;

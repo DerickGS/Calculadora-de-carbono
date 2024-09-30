@@ -1,5 +1,8 @@
+._pageInformative{
 
-._backgroundImage{
+    
+    
+    ._backgroundImage{
     background: url(../img/capa-site.jpeg);
     height: 40vh;
     width: 100%;
@@ -30,7 +33,7 @@ th{
 ._cardInfo{
     text-align: center;
     margin: 2rem 10% 0 10%;
-
+    
     img{
         margin-bottom: 20px;
     }
@@ -40,7 +43,7 @@ th{
 @media (max-width: 768px) {
     th{
         font-size: 0.7rem;
-
+        
         p{
             font-size: 0.7rem;
         }
@@ -53,4 +56,5 @@ th{
         overflow-x: auto ;
         margin-inline: 5%;
     }
+}
 }

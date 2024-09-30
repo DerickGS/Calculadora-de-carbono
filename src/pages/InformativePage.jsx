@@ -12,7 +12,7 @@ function InformativePage() {
   return (
     <body>
       <Header/>
-        <main>
+        <main className={styles._pageInformative}>
 
           <div className={styles._backgroundImage}></div>
           

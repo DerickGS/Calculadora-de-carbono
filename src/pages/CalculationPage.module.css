@@ -1,32 +1,25 @@
-._backgroundImage{
-    background: url(../img/capa-site.jpeg);
-    height: 40vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 3rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
-}
+._pageCalculation{
 
-.comentarios_pequenos {
-    font-size: x-small;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow-x: hidden;
-}
-
-.navegacao {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-
+    
+    ._backgroundImage{
+        background: url(../img/capa-site.jpeg);
+        height: 40vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 3rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+    }
+    
+    .comentarios_pequenos {
+        font-size: x-small;
+    }
+    
+    
+    .navegacao {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+        
 }
 
 footer {
@@ -37,7 +30,7 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
     max-height: 390px;
     min-height: 200px;
-
+    
 }
 
 .container_calc {
@@ -47,10 +40,10 @@ footer {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.45);
     width: 50%;
     margin: auto;
-
+    
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     color: #333;
 }
@@ -104,24 +97,19 @@ h1 {
     background-color: #45a049;
 }
 
-h2 {
-    text-align: center;
-    color: #333;
-}
-
 .comentarios_pequenos {
     font-size: x-small;
 }
 
 .centralizar_botao {
     text-align: center;
-
+    
 }
 
 
 ._tabela{
     margin: 3rem 10%;
-
+    
     th{
         text-align: center;
     }
@@ -135,7 +123,7 @@ h2 {
     .container_calc {
         width: 50%;
     }
-
+    
 }
 
 /* X-Large devices */
@@ -143,7 +131,7 @@ h2 {
     .container_calc {
         width: 60%;
     }
-
+    
 }
 
 /* Large devices */
@@ -151,7 +139,7 @@ h2 {
     .container_calc {
         width: 70%;
     }
-
+    
 }
 
 /* Medium devices */
@@ -159,14 +147,15 @@ h2 {
     .container_calc {
         width: 80%;
     }
-
-    th, tr{
-        font-size: 0.7rem;
-
-        p{
+    
+    ._tabela {
+        th, tr{
             font-size: 0.7rem;
+            
+            p{
+                font-size: 0.7rem;
+            }
         }
-    }
 
     th{
         min-width: 10rem;
@@ -180,6 +169,7 @@ h2 {
         overflow-x: auto ;
         margin-inline: 5%;
     }
+}
 
 }
 
@@ -188,6 +178,7 @@ h2 {
     .container_calc {
         width: 90%;
     }
+}
 
 
 }

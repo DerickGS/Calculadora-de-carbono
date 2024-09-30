@@ -8,7 +8,7 @@ function CalculationPage() {
     return (
         <body>
             <Header/>
-            <main>
+            <main className={styles._pageCalculation}>
                 <div className={styles._backgroundImage}></div>
                 <div className={styles.container_calc}>
                     <h3>Calculadora CO₂</h3>

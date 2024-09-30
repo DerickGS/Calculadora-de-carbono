@@ -1,163 +1,170 @@
-._backgroundImage{
-    background: url(../img/capa-site.jpeg);
-    height: 40vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 3rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
-}
+._pageTeam{
+
+        
+        ._backgroundImage{
+            background: url(../img/capa-site.jpeg);
+            height: 40vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 3rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+    }
 
 ._title{
     margin-bottom: 3rem;
+    div{
+        text-align: center;
+    }
 }
+    ._gridCards{
+        display: grid;
+        /* grid-template-columns: 200px 200px 200px 200px; */
+        grid-template-columns: 200px 200px 200px 200px;
+        gap: 20px;
+        justify-content: space-evenly;
+        margin-inline: 40px;
+    }
 
-._gridCards{
-    display: grid;
-    /* grid-template-columns: 200px 200px 200px 200px; */
-    grid-template-columns: 200px 200px 200px 200px;
-    gap: 20px;
-    justify-content: space-evenly;
-    margin-inline: 40px;
-}
+    ._cards{
+        width: 200px;
+        /* border: 1px solid rgb(177, 178, 179); */
+        border-radius: 5px;
+        display: block;
+        /* 
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1); */
+        /* box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1); */
+        box-shadow: 0px 0px 50px 0px #00000024, 25px 25px 50px #E3E3E3 inset;
+    }   
 
-._cards{
-    width: 200px;
-    /* border: 1px solid rgb(177, 178, 179); */
-    border-radius: 5px;
-    display: block;
-/* 
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1); */
-    /* box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1); */
-    box-shadow: 0px 0px 50px 0px #00000024, 25px 25px 50px #E3E3E3 inset;
-}   
-
-._cards:hover{
-    transition: ease-in-out 0.3s;
-    /* box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1); */
-    /* box-shadow: 20px 20px 15px -3px rgba(0,0,0,0.1); */
-    box-shadow: 0px 0px 60px 10px rgba(0,0,0,0.1);
-    width: 205px;
-    margin: -05px;
-    position: sticky;
-    
-    ._imgCards{
+    ._cards:hover{
         transition: ease-in-out 0.3s;
+        /* box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1); */
+        /* box-shadow: 20px 20px 15px -3px rgba(0,0,0,0.1); */
+        box-shadow: 0px 0px 60px 10px rgba(0,0,0,0.1);
         width: 205px;
-        height: 205px;
+        margin: -05px;
+        position: sticky;
+        
+        ._imgCards{
+            transition: ease-in-out 0.3s;
+            width: 205px;
+            height: 205px;
+        }
+        
+        ._titleCards{
+            width: 205px;
+        }
+        
+        ._contacts{
+            position: sticky;
+            transition: ease-in-out 0.3s;
+            /* background: rgba(2, 192, 195, 0.314);
+            background: linear-gradient(0deg, rgba(2, 192, 195, 0.314) 0%, rgba(221, 187, 45, 0.314) 100%); */
+            background: linear-gradient(-45deg, rgba(221, 187, 45, 0.314), rgba(2, 195, 105, 0.314), rgba(45, 136, 221, 0.314), rgba(2, 192, 195, 0.314));
+            background-size: 400% 400%;    
+            box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+            animation: Gradient 5s ease infinite;
+
+            ._contactsLogoIsta, ._contactsLogoGit, ._contactsLogoLinkdin{
+                width: 35px;
+                height: 35px;
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+
+    @keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+
+    ._imgCards{
+        width: 200px;
+        height: 200px;
+        border-radius: 5px 5px 0 0;
     }
 
     ._titleCards{
-        width: 205px;
+        text-align: center;
+        margin: 10px 0;
+        width: 200px ;
     }
 
     ._contacts{
-        position: sticky;
-        transition: ease-in-out 0.3s;
-        /* background: rgba(2, 192, 195, 0.314);
-        background: linear-gradient(0deg, rgba(2, 192, 195, 0.314) 0%, rgba(221, 187, 45, 0.314) 100%); */
-        background: linear-gradient(-45deg, rgba(221, 187, 45, 0.314), rgba(2, 195, 105, 0.314), rgba(45, 136, 221, 0.314), rgba(2, 192, 195, 0.314));
-        background-size: 400% 400%;    
-        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
-        animation: Gradient 5s ease infinite;
+        background-color: rgba(177, 178, 179, 0.314);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        margin-bottom: -1rem;
+        
+        padding: 5px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+        margin-inline: 10%;
+    }
 
-        ._contactsLogoIsta, ._contactsLogoGit, ._contactsLogoLinkdin{
-            width: 35px;
-            height: 35px;
-            color: rgb(255, 255, 255);
+    ._contacts:hover{
+        /* transition: ease-in-out 0.3s;
+        background: rgba(2, 192, 195, 0.314);
+        background: linear-gradient(0deg, rgba(2, 192, 195, 0.314) 0%, rgba(221, 187, 45, 0.314) 100%);
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1); */
+    }
+
+    ._contactsLogoIsta, ._contactsLogoGit, ._contactsLogoLinkdin{
+        border-radius: 5px;
+    }
+
+    ._contactsLogoIsta, ._contactsLogoGit, ._contactsLogoLinkdin:not(:hover){
+        color: rgb(161, 162, 163);
+    }
+    ._contactsLogoIsta:hover{
+        transition: ease-in-out 0.3s;
+        color: rgb(255, 255, 255);
+        background: #833ab4;
+        background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    }
+
+    ._contactsLogoGit:hover{
+        transition: ease-in-out 0.3s;
+        color: rgb(255, 255, 255);
+        background: rgb(0, 0, 0);
+    }
+
+    ._contactsLogoLinkdin:hover{
+        transition: ease-in-out 0.3s;
+        color: rgb(255, 255, 255);
+        background: rgb(14, 118, 168);
+    }
+
+    @media (max-width: 1024px) {
+        ._gridCards{
+            grid-template-columns: 200px 200px;
+        }
+        ._cards{
+            margin-bottom: 3rem;
+        }
+        
+        ._cards:hover{
+            margin: -10px -10px 42px -10px;
         }
     }
-}
 
-@keyframes Gradient {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
+    @media (max-width: 520px) {
+        ._gridCards{
+            grid-template-columns: 200px;
+        }
 
-._imgCards{
-    width: 200px;
-    height: 200px;
-    border-radius: 5px 5px 0 0;
-}
-
-._titleCards{
-    text-align: center;
-    margin: 10px 0;
-    width: 200px ;
-}
-
-._contacts{
-    background-color: rgba(177, 178, 179, 0.314);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    margin-bottom: -1rem;
-
-    padding: 5px;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5%;
-    margin-inline: 10%;
-}
-
-._contacts:hover{
-    /* transition: ease-in-out 0.3s;
-    background: rgba(2, 192, 195, 0.314);
-    background: linear-gradient(0deg, rgba(2, 192, 195, 0.314) 0%, rgba(221, 187, 45, 0.314) 100%);
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1); */
-}
-
-._contactsLogoIsta, ._contactsLogoGit, ._contactsLogoLinkdin{
-    border-radius: 5px;
-}
-
-._contactsLogoIsta, ._contactsLogoGit, ._contactsLogoLinkdin:not(:hover){
-    color: rgb(161, 162, 163);
-}
-._contactsLogoIsta:hover{
-    transition: ease-in-out 0.3s;
-    color: rgb(255, 255, 255);
-    background: #833ab4;
-    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
-}
-
-._contactsLogoGit:hover{
-    transition: ease-in-out 0.3s;
-    color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
-}
-
-._contactsLogoLinkdin:hover{
-    transition: ease-in-out 0.3s;
-    color: rgb(255, 255, 255);
-    background: rgb(14, 118, 168);
-}
-
-@media (max-width: 1024px) {
-    ._gridCards{
-        grid-template-columns: 200px 200px;
-    }
-    ._cards{
-        margin-bottom: 3rem;
-    }
-
-    ._cards:hover{
-        margin: -10px -10px 42px -10px;
-    }
-}
-
-@media (max-width: 520px) {
-    ._gridCards{
-        grid-template-columns: 200px;
     }
 
 }

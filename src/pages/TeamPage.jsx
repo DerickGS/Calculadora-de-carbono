@@ -12,12 +12,14 @@ import Img from "../img/question.png"
 function TeamPage() {
     return (
     
-    <main>
+    <body>
         <Header/>
-        <body>
+        <main className={styles._pageTeam}>
         <div className={styles._backgroundImage}></div>
         <div className={styles._title}>
-            <h1>Equipe de criação do website</h1>
+            <div>
+                <h1>Equipe de criação do website</h1>
+            </div>
         </div>
         <section>
             <div className={styles._gridCards}>
@@ -78,9 +80,9 @@ function TeamPage() {
                 </div>
             </div>
         </section>
-        </body>
+        </main>
         <Footer/>
-    </main>
+    </body>
 
     );
 }
