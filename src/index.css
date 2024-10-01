@@ -12,6 +12,7 @@
 body{
   height: auto;
   overflow-x: unset;
+  min-height: calc(100vh - 337px); /*100% da tela menos a altura do footer*/ 
 }
 
 
