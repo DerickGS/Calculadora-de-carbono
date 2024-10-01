@@ -8,7 +8,8 @@ function CuriosityPage() {
     return (
         <main>
             <Header/>
-            <body>
+            <body className={styles._pageCuriosity}>
+                <div className={styles._backgroundImage}></div>
                 <h1 className={styles} >Curiosidades</h1>
             </body>
             <Footer/>

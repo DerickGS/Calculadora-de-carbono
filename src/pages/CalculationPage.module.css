@@ -2,7 +2,7 @@
 
     
     ._backgroundImage{
-        background: url(../img/capa-site.jpeg);
+        background: url(../img/carbon-wallpaper.jpg);
         height: 40vh;
         width: 100%;
         background-repeat: no-repeat;
@@ -144,6 +144,10 @@ h1, h2 {
 
 /* Medium devices */
 @media (max-width: 768px) {
+    
+    ._backgroundImage{
+        height: 220px;
+    }
     .container_calc {
         width: 80%;
     }

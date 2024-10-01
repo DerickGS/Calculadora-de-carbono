@@ -160,11 +160,24 @@
         }
     }
 
+    @media (max-width: 768px) {
+        ._backgroundImage{
+            height: 220px;
+        }
+
+    }
+
     @media (max-width: 520px) {
         ._gridCards{
             grid-template-columns: 200px;
         }
 
+    }
+
+    @media (min-width: 1024px) {
+        section{
+            margin-bottom: 6rem;
+        }
     }
 
 }

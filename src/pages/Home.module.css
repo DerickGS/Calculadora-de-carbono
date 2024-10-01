@@ -41,7 +41,7 @@
         margin: 2rem 0;
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
 
             ._backgroundImage{
                 height: 220px;

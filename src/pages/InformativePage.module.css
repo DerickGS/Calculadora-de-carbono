@@ -3,7 +3,7 @@
     
     
     ._backgroundImage{
-    background: url(../img/capa-site.jpeg);
+    background: url(../img/dark-leaves.png);
     height: 40vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -41,6 +41,11 @@ th{
 
 
 @media (max-width: 768px) {
+
+    ._backgroundImage{
+        height: 220px;
+    }
+    
     th{
         font-size: 0.7rem;
         
