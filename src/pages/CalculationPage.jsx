@@ -24,7 +24,7 @@ function CalculationPage() {
                             </select>
 
                             <label htmlFor="distancia1">Distância (km)</label>
-                            <input type="number" id="distancia1" placeholder="Distância (km)" required/>
+                            <input type="number" id="distancia1" placeholder="Distância (km)" required />
 
                             <label htmlFor="consumo1">Consumo (km/l ou m³/km)</label>
                             <input type="number" id="consumo1" placeholder="Consumo (km/l)" required/>

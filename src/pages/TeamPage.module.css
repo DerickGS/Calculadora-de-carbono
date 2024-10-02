@@ -43,15 +43,17 @@
         /* box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1); */
         /* box-shadow: 20px 20px 15px -3px rgba(0,0,0,0.1); */
         box-shadow: 0px 0px 60px 10px rgba(0,0,0,0.1);
-        width: 205px;
-        margin: -05px;
+        transform: scale(1.08);
+        transition: all 0.5s;
+        /* width: 205px;
+        margin: -05px; */
         position: sticky;
         
-        ._imgCards{
+        /* ._imgCards{
             transition: ease-in-out 0.3s;
             width: 205px;
             height: 205px;
-        }
+        } */
         
         ._titleCards{
             width: 205px;
@@ -68,8 +70,8 @@
             animation: Gradient 5s ease infinite;
 
             ._contactsLogoIsta, ._contactsLogoGit, ._contactsLogoLinkdin{
-                width: 35px;
-                height: 35px;
+                /* width: 35px;
+                height: 35px; */
                 color: rgb(255, 255, 255);
             }
         }

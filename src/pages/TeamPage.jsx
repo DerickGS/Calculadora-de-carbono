@@ -62,8 +62,8 @@ function TeamPage() {
                         />
                         <h6 className={styles._titleCards} >William Gomes</h6>
                         <div className={styles._contacts}>
-                            <a href=""><InstagramLogo size={32} className={styles._contactsLogoIsta} /></a>
-                            <a href=""><GithubLogo size={32} className={styles._contactsLogoGit} /></a>
+                            <a href="https://www.instagram.com/willian.san99/"><InstagramLogo size={32} className={styles._contactsLogoIsta} /></a>
+                            <a href="https://github.com/WilliamSan99"><GithubLogo size={32} className={styles._contactsLogoGit} /></a>
                             <a href=""><LinkedinLogo size={32} className={styles._contactsLogoLinkdin} /></a>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ function TeamPage() {
                         <div className={styles._contacts}>
                             <a href="https://www.instagram.com/derickgaldi?igsh=MWxyMWcwYmtmanZwNQ=="><InstagramLogo size={32} className={styles._contactsLogoIsta} /></a>
                             <a href="https://github.com/DerickGS/"><GithubLogo size={32} className={styles._contactsLogoGit} /></a>
-                            <a href=""><LinkedinLogo size={32} className={styles._contactsLogoLinkdin} /></a>
+                            <a href="https://www.linkedin.com/in/derickgs/"><LinkedinLogo size={32} className={styles._contactsLogoLinkdin} /></a>
                         </div>
                     </div>
                 </div>

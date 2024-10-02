@@ -22,8 +22,21 @@ function calcularPegadaCarbonoTransporte(distanciaKm, consumoKmPorUnidade, tipoC
     if (!fatorEmissao) {
         throw new Error("Tipo de combustível desconhecido");
     }
-
+    // alteração DerickGs test ---------------------------------------------------------------//
+    if (distanciaKm <= 0) {
+        throw new Error("A distância deve ser maior que zero");
+    }
+    
+    if (consumoKmPorUnidade <= 0) {
+        throw new Error("O consumo por unidade deve ser maior que zero");
+    }
     const fatorConsumo = fatorConsumoPorTipo[tipoVeiculo];
+    if (!fatorConsumo) {
+        throw new Error("Tipo de veículo desconhecido");
+    }
+    //----------------------------------------------------------------------------------------//
+
+    // const fatorConsumo = fatorConsumoPorTipo[tipoVeiculo];
     const consumoTotalUnidades = (distanciaKm / consumoKmPorUnidade) * fatorConsumo;
     const pegadaCarbono = consumoTotalUnidades * fatorEmissao;
 

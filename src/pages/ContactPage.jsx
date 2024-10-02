@@ -36,22 +36,22 @@ function ContactPage() {
                         <div className={styles._inputName}>
                             <div className={styles._formInput}>
                                 <label>Primeiro nome</label>
-                                <input type="text" name="first name" placeholder="Nome:" required></input>
+                                <input type="text" name="first name" placeholder="Nome:" required />
                             </div>
                             <div className={styles._formInput}>
                                 <label>Sobrenome</label>
-                                <input type="text" name="lastname" placeholder="Sobrenome:" required></input>
+                                <input type="text" name="lastname" placeholder="Sobrenome:" required />
                             </div>
                         </div>
                         <div className={styles._formInput}>
                             <label>Sobrenome</label>
-                            <input type="email" name="email" placeholder="Email:" required></input>
+                            <input type="email" name="email" placeholder="Email:" required />
                         </div>
                         <div className={styles._formInput}>
                             <label>Sobrenome</label>
-                            <input id="phone" value={phone} onChange={handleInputChange} type="tel" name="numeroContato" placeholder="Número de Contato:" required></input>
+                            <input id="phone" value={phone} onChange={handleInputChange} type="tel" name="numeroContato" placeholder="Número de Contato:" required />
                         </div>
-                        <textarea name="message" placeholder="Mensagem:" required></textarea>
+                        <textarea name="message" placeholder="Mensagem:" required />
                         <button> <PaperPlaneTilt size={21} /> Enviar Mensagem</button>
                     </form>
                 </div>
