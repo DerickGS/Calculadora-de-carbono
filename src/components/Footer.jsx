@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom"
 
-
 import styles from "./Footer.module.css"
 import Logo from "../assets/_iconLogo.png"
 
 
 function Footer() {
+
+    const currentYear = new Date().getFullYear(); //data copyright footer           .- .-. . / -.-- --- ..- / -.-. ..- .-. .. --- ..- ... ..--..
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -30,7 +31,7 @@ function Footer() {
                 />
             </dv>    
             <div className={styles._footer}>
-                <p>© 2024</p>
+                <p>© {currentYear}</p>
             </div>
         </footer>
     )

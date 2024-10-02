@@ -19,7 +19,8 @@ function Header() {
     }
 
     setAbrirMenu(true)
-}
+    }
+    
     return (
         <header>
             <div className={styles.desktop}>
