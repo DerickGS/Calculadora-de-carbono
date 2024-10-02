@@ -1,8 +1,10 @@
 import {useState}  from 'react';
+
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 import styles from "./ContactPage.module.css"
+import {PaperPlaneTilt} from "phosphor-react"
 
 function ContactPage() {
 
@@ -32,13 +34,25 @@ function ContactPage() {
                     <form className={styles._formEmail} action="https://formsubmit.co/derick@eaportal.org" method="POST">
                         <h3>Conte-nos o que você achou!</h3>
                         <div className={styles._inputName}>
-                            <input type="text" name="first name" placeholder="Nome:" required></input>
-                            <input type="text" name="lastname" placeholder="Sobrenome:" required></input>
+                            <div className={styles._formInput}>
+                                <label>Primeiro nome</label>
+                                <input type="text" name="first name" placeholder="Nome:" required></input>
+                            </div>
+                            <div className={styles._formInput}>
+                                <label>Sobrenome</label>
+                                <input type="text" name="lastname" placeholder="Sobrenome:" required></input>
+                            </div>
                         </div>
-                        <input type="email" name="email" placeholder="Email:" required></input>
-                        <input id="phone" value={phone} onChange={handleInputChange} type="tel" name="numeroContato" placeholder="Número de Contato:" required></input>
+                        <div className={styles._formInput}>
+                            <label>Sobrenome</label>
+                            <input type="email" name="email" placeholder="Email:" required></input>
+                        </div>
+                        <div className={styles._formInput}>
+                            <label>Sobrenome</label>
+                            <input id="phone" value={phone} onChange={handleInputChange} type="tel" name="numeroContato" placeholder="Número de Contato:" required></input>
+                        </div>
                         <textarea name="message" placeholder="Mensagem:" required></textarea>
-                        <button>Enviar</button>
+                        <button> <PaperPlaneTilt size={21} /> Enviar Mensagem</button>
                     </form>
                 </div>
             </body>
