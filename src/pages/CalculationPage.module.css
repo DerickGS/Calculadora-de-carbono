@@ -2,7 +2,8 @@
 
     
     ._backgroundImage{
-        background: url(../img/carbon-wallpaper.jpg);
+        background: url(../img/capa-calculadora.png);
+        /* background: url(../img/carbon-wallpaper.jpg); */
         height: 40vh;
         width: 100%;
         background-repeat: no-repeat;

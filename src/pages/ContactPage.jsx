@@ -44,11 +44,11 @@ function ContactPage() {
                             </div>
                         </div>
                         <div className={styles._formInput}>
-                            <label>Sobrenome</label>
+                            <label>Endereço de e-mail</label>
                             <input type="email" name="email" placeholder="Email:" required />
                         </div>
                         <div className={styles._formInput}>
-                            <label>Sobrenome</label>
+                            <label>Mensagem</label>
                             <input id="phone" value={phone} onChange={handleInputChange} type="tel" name="numeroContato" placeholder="Número de Contato:" required />
                         </div>
                         <textarea name="message" placeholder="Mensagem:" required />

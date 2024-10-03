@@ -1,7 +1,8 @@
 ._pageCuriosity{
     
     ._backgroundImage{
-        background: url(../img/learning-wallpaper.jpg);
+        background: url(../img/capa-curiosidade.png);
+        /* background: url(../img/learning-wallpaper.jpg); */
         height: 40vh;
         width: 100%;
         background-repeat: no-repeat;

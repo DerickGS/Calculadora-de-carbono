@@ -3,6 +3,7 @@ respansividade footer ✅
 
 paginas
     Home
+        respancividaed comopnentes textos
     Calculadora
         nao pode retornar sem estra com a tabela completa
          R$ 50.000 - R$ 100.000  valores 500 toneladas

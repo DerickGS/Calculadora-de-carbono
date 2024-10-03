@@ -3,7 +3,8 @@
     
     
     ._backgroundImage{
-    background: url(../img/dark-leaves.png);
+    background: url(../img/capa-informativo.png);
+    /* background: url(../img/dark-leaves.png); */
     height: 40vh;
     width: 100%;
     background-repeat: no-repeat;
