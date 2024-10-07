@@ -85,7 +85,7 @@ function Header() {
                         <hr />
                         <Link to={"/CuriosityPage"} className={styles.button_options} ><p>Curiosidade  <Question size={21} /></p></Link>
                         <hr />
-                        <Link to={"/CuriosityPage"} className={styles.button_options} ><p>Contato  <PaperPlaneTilt size={21} /></p></Link>
+                        <Link to={"/ContactPage"} className={styles.button_options} ><p>Contato  <PaperPlaneTilt size={21} /></p></Link>
                         <hr />
                         <Link to={"/TeamPage"} className={styles.button_options} ><p>Equipe  <UsersThree size={21} /></p></Link>
                     </nav>
