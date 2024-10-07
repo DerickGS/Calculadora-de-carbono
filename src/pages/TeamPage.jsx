@@ -18,11 +18,11 @@ function TeamPage() {
         <Header/>
         <main className={styles._pageTeam}>
             <div className={styles._backgroundImage}></div>
-            <div className={styles._title}>
+            {/* <div className={styles._title}>
                 <div>
                     <h1>Equipe de criação do website</h1>
                 </div>
-            </div>
+            </div> */}
             <section>
                 <div className={styles._gridCards}>
 

@@ -4,13 +4,13 @@
         ._backgroundImage{
             background: url(../img/capa-criadores.png);
             /* background: url(../img/capa-site.jpeg); */
-            height: 40vh;
+            height: 25vh;
             width: 100%;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             margin-bottom: 3rem;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.45); */
     }
 
 ._title{
@@ -136,7 +136,7 @@
 
     @media (max-width: 768px) {
         ._backgroundImage{
-            height: 220px;
+            height: 120px;
         }
         
     }

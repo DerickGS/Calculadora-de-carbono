@@ -4,13 +4,13 @@
     ._backgroundImage{
         background: url(../img/capa-calculadora.png);
         /* background: url(../img/carbon-wallpaper.jpg); */
-        height: 40vh;
+        height: 25vh;
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         margin-bottom: 3rem;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.45); */
     }
     
     .comentarios_pequenos {
@@ -205,7 +205,7 @@ th{
 
     
     ._backgroundImage{
-        height: 220px;
+        height: 120px;
     }
     
 }
