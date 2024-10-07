@@ -1,6 +1,5 @@
 import { useState } from 'react';
 
-// import React from 'react';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -129,11 +128,30 @@ function CuriosityPage() {
                         <li><strong>TipoVeiculo = ¨carro¨</strong> → <strong>FatorConsumo = 0.1</strong> (litros por km)</li>
                         <li><strong>TipoCombustivel = ¨gasolina¨</strong> → <strong>FatorEmissao = 2.28</strong> (kg CO₂ por litro)</li>
                     </ul>
+
+                </div>
+                
+                <div className={styles._contentTitle}>
                     <h3>Passo a Passo do Cálculo</h3>
                     <p><strong>Calcular o Consumo Total de Combustível: </strong></p>
-                    <p><strong>Calcular a Pegada de Carbono: </strong></p>
-                    <p><strong>Converter para Toneladas: </strong></p>
+                    {/* <img src={Calculo1} alt="" className={styles._imgCuri} /> */}
                 </div>
+                <div className={styles._Calculo1}></div>
+
+                <div className={styles._contentTitle}>
+                    <p><strong>Calcular a Pegada de Carbono: </strong></p>
+                    {/* <img src={Calculo1} alt="" className={styles._imgCuri} /> */}
+                </div>
+                <div className={styles._Calculo2}></div>
+
+                <div className={styles._contentTitle}>
+                    <p><strong>Converter para Toneladas: </strong></p>
+                    {/* <img src={Calculo1} alt="" className={styles._imgCuri} /> */}
+                </div>
+                <div className={styles._Calculo3}></div>
+
+
+
                 <div className={styles._contentTest}>
                     <p>Portanto, ao inserir 100 km percorridos em um carro que utiliza gasolina, a pegada de carbono resultante seria de aproximadamente <strong>0.0228 toneladas de CO₂</strong>.</p>
                     <hr/>
