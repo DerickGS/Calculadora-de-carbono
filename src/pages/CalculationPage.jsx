@@ -134,8 +134,7 @@ function CalculationPage() {
                     width="50px"
                     />
                     <br />
-                    <Link className="btn btn-warning" to ={"/CuriosityPage"}>Como esse calculo é
-                    feito?</Link>
+                    <Link className="btn btn-warning" to ={"/CuriosityPage"}>Como esse calculo é feito?</Link>
                     {/* <p className="comentarios_pequenos">Clique para saber mais.</p> */}
                     </div>
                 </div>
