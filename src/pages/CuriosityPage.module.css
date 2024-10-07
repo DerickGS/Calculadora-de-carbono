@@ -1,11 +1,27 @@
 ._pageCuriosity{
 
     .hidden {
-        display: none; /* Oculta o elemento */
+        /* Oculta o elemento */
+        /* transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out; */
+        opacity: 0; 
+        height: 0;
+        transition: all 0.3s ease;
+        div{
+            display: none;
+        }
     }
     
     .show {
-        display: block; /* Mostra o elemento */
+        /* Mostra o elemento */
+        opacity: 1;
+        /* transition: all 0.3s ease; */
+        font-size: 18px;
+        margin-top: 20px;
+        transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
+        background-color: #f4f4f4;
+        height: auto;
+        padding: 20px;
+        border-radius: 5px;
     }
     
     ._backgroundImage{
@@ -66,11 +82,20 @@
                 margin: 21px auto;
             }
         }
+
+        
+        hr{ 
+            border-top: 2px solid rgba(0, 0, 0, .1);
+        }
     }
     
 
     ._tabela{
         margin: 2rem 10%;
+    }
+
+    a{
+        word-break: break-all;
     }
 
     @media (max-width: 768px) {
