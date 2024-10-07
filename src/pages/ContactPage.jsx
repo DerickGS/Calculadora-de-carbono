@@ -48,11 +48,14 @@ function ContactPage() {
                             <input type="email" name="email" placeholder="Email:" required />
                         </div>
                         <div className={styles._formInput}>
-                            <label>Mensagem</label>
+                            <label>Número de Contato</label>
                             <input id="phone" value={phone} onChange={handleInputChange} type="tel" name="numeroContato" placeholder="Número de Contato:" required />
                         </div>
-                        <textarea name="message" placeholder="Mensagem:" required />
-                        <button> <PaperPlaneTilt size={21} /> Enviar Mensagem</button>
+                        <div className={styles._formInput}>
+                            <label>Mensagem</label>
+                            <textarea name="message" placeholder="Mensagem:" required />
+                        </div>
+                        <button className="btn btn-warning"> <PaperPlaneTilt size={21} /> Enviar Mensagem</button>
                     </form>
                 </div>
             </body>

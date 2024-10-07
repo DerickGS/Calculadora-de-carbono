@@ -39,9 +39,8 @@ footer {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.45);
-    width: 50%;
+    max-width: 910px;
     margin: auto;
-    
 }
 
 h1, h2 {
@@ -49,8 +48,30 @@ h1, h2 {
     color: #333;
 }
 
+
 .titulo {
     text-align: center;
+}
+
+._contentTest{
+    margin: 0 10%;
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 0.5rem;
+    }
+
+    h4{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgba(115, 115, 115, 0.715);
+        margin-bottom: 2rem;
+    }
+
+    p{
+        margin-bottom: 1rem;
+    }
 }
 
 
@@ -108,82 +129,85 @@ h1, h2 {
 }
 
 
-._tabela{
-    margin: 3rem 10%;
+._cardInfo{
+    text-align: center;
+    margin: 2rem 10% 0 10%;
     
-    th{
-        text-align: center;
+    img{
+        margin-bottom: 20px;
     }
+}
+
+
+
+
+._tabela {
+    th, tr{
+        font-size: 0.7rem;
+        
+        p{
+            font-size: 0.7rem;
+        }
+    }
+
+th{
+    min-width: 10rem;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+table{
+    overflow-x: auto ;
+    margin-inline: 5%;
+}
+}
+._tabela {
+    max-width: 95%;
+    margin: 3rem auto;
+    border-radius: 10px;
+    font-size: small;
+}
+
+
+td {
+    text-align: center;
+    vertical-align: auto;
+}
+
+th{
+    /* width: 60px; */
+    text-align: center;
+    a{
+        width: 100%;
+    }
+}
+
+.comentarios_pequenos {
+    font-size: x-small;
+    
 }
 
 
 /* Media ****************************************************************************************************************8*/
 
-/* XX-Large devices */
-@media (max-width: 1400px) {
-    .container_calc {
-        width: 50%;
-    }
+@media (max-width:1136px) {
     
-}
-
-/* X-Large devices */
-@media (max-width: 1200px) {
-    .container_calc {
-        width: 60%;
+    .container_calc{
+        margin: 0 10%;
     }
-    
-}
-
-/* Large devices */
-@media (max-width: 992px) {
-    .container_calc {
-        width: 70%;
-    }
-    
 }
 
 /* Medium devices */
 @media (max-width: 768px) {
     
+
+    
     ._backgroundImage{
         height: 220px;
     }
-    .container_calc {
-        width: 80%;
-    }
     
-    ._tabela {
-        th, tr{
-            font-size: 0.7rem;
-            
-            p{
-                font-size: 0.7rem;
-            }
-        }
-
-    th{
-        min-width: 10rem;
-    }
-
-    img{
-        width: 20px;
-        height: 20px;
-    }
-    table{
-        overflow-x: auto ;
-        margin-inline: 5%;
-    }
+}
 }
 
-}
-
-/* Small devices */
-@media (max-width: 576px) {
-    .container_calc {
-        width: 90%;
-    }
-}
-
-
-}

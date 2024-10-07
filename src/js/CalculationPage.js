@@ -1,79 +1,69 @@
-// Fatores de correção de consumo com base no tipo de veículo
+import Swal from 'sweetalert2/dist/sweetalert2.js';
+import 'sweetalert2/src/sweetalert2.scss';
+
+// Fatores de consumo por tipo de veículo (litros por KM)
 const fatorConsumoPorTipo = {
-    carro: 1.0,       // Referência
-    moto: 1.2,        // Motos geralmente têm maior eficiência
-    onibus: 0.5,      // Ônibus transporta mais passageiros, menor consumo per capita
-    aviao: 0.1        // Avião emite muito por km, mas depende do número de passageiros
+    carro: 0.1,
+    moto: 0.04,
+    onibus: 0.6,
+    aviao: 4
 };
 
-// Dicionário com os fatores de emissão
+// Fatores de emissão (kg CO2/litro ou kg CO2/m³)
 const fatoresEmissao = {
-    gasolina: 2.19,       // kg CO2/litro
-    etanol: 1.53,         // kg CO2/litro
-    diesel: 2.68,         // kg CO2/litro
-    gas_natural: 2.75,    // kg CO2/m³
-    querosene_aviacao: 2.54,  // kg CO2/litro
-    hibrido: 1.75         // Exemplo: média ponderada entre gasolina e eletricidade
+    gasolina: 2.28,
+    etanol: 1.867,
+    diesel: 3.2,
+    gas_natural: 1.824,
+    querosene_aviacao: 0.12,
+    hibrido: 1.14
 };
 
 // Função para calcular a pegada de carbono para um único meio de transporte
-function calcularPegadaCarbonoTransporte(distanciaKm, consumoKmPorUnidade, tipoCombustivel, tipoVeiculo) {
+function calcularPegadaCarbonoTransporte(distanciaKm, tipoCombustivel, tipoVeiculo) {
     const fatorEmissao = fatoresEmissao[tipoCombustivel];
     if (!fatorEmissao) {
         throw new Error("Tipo de combustível desconhecido");
     }
-    // alteração DerickGs test ---------------------------------------------------------------//
+
     if (distanciaKm <= 0) {
-        throw new Error("A distância deve ser maior que zero");
+        Swal.fire("Campo vazio ou inválido", "A Distância (KM) deve ser superior a zero", "error");
+        return 0; // Retorna 0 para evitar cálculos incorretos
     }
-    
-    if (consumoKmPorUnidade <= 0) {
-        throw new Error("O consumo por unidade deve ser maior que zero");
-    }
+
     const fatorConsumo = fatorConsumoPorTipo[tipoVeiculo];
     if (!fatorConsumo) {
         throw new Error("Tipo de veículo desconhecido");
     }
-    //----------------------------------------------------------------------------------------//
 
-    // const fatorConsumo = fatorConsumoPorTipo[tipoVeiculo];
-    const consumoTotalUnidades = (distanciaKm / consumoKmPorUnidade) * fatorConsumo;
+    // Calcular o consumo total de combustível com base na distância e no fator de consumo
+    const consumoTotalUnidades = distanciaKm * fatorConsumo;
+
+    // Calcular a pegada de carbono
     const pegadaCarbono = consumoTotalUnidades * fatorEmissao;
 
     return pegadaCarbono;  // em kg CO2
 }
 
-// Função para calcular a pegada de carbono total para múltiplos meios de transporte
-function calcularPegadaTotal() {
-    const distancias = [
-        parseFloat(document.getElementById('distancia1').value) || 0,
-    ];
-
-    const consumos = [
-        parseFloat(document.getElementById('consumo1').value) || 0,
-    ];
-
-    const combustiveis = [
-        document.getElementById('combustivel1').value,
-    ];
-
-    const tiposVeiculo = [
-        document.getElementById('tipoVeiculo1').value,
-    ];
-
-    let pegadaTotal = 0;
-
-    for (let i = 0; i < distancias.length; i++) {
-        pegadaTotal += calcularPegadaCarbonoTransporte(distancias[i], consumos[i], combustiveis[i], tiposVeiculo[i]);
-    }
-
-    return pegadaTotal / 1000;  // Convertendo de kg CO2 para toneladas de CO2
-}
-
-// Função chamada pelo botão para exibir o resultado
+// Função chamada pelo botão para calcular a pegada de carbono
 function calcularPegada() {
-    const pegadaTotal = calcularPegadaTotal();
-    document.getElementById('resultado').innerText = `${pegadaTotal.toFixed(4)} toneladas de CO₂`;
+    // Obtenha a distância, combustível e tipo de veículo do usuário
+    const distanciaKm = parseFloat(document.getElementById('distancia1').value) || 0;
+    const tipoCombustivel = document.getElementById('combustivel1').value;
+    const tipoVeiculo = document.getElementById('tipoVeiculo1').value;
+
+    try {
+        const pegadaTotal = calcularPegadaCarbonoTransporte(distanciaKm, tipoCombustivel, tipoVeiculo);
+
+        if (isNaN(pegadaTotal) || pegadaTotal <= 0) {
+            document.getElementById('resultado').innerText = `Campo vazio ou inválido`;
+        } else {
+            Swal.fire("Cálculo realizado!", `${(pegadaTotal / 1000).toFixed(4)} toneladas de CO₂`, "success");
+            document.getElementById('resultado').innerText = `${(pegadaTotal / 1000).toFixed(4)} toneladas de CO₂`;
+        }
+    } catch (error) {
+        Swal.fire("Erro", error.message, "error");
+    }
 }
 
-export {calcularPegada, fatorConsumoPorTipo, fatoresEmissao, calcularPegadaCarbonoTransporte, calcularPegadaTotal }; 
+export { calcularPegada, fatorConsumoPorTipo, fatoresEmissao, calcularPegadaCarbonoTransporte };

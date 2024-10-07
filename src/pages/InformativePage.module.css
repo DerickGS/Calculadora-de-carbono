@@ -54,9 +54,11 @@ th{
             font-size: 0.7rem;
         }
     }
-    img{
-        width: 20px;
-        height: 20px;
+    td{
+        img{
+            width: 20px;
+            height: 20px;
+        }
     }
     table{
         overflow-x: auto ;

@@ -17,9 +17,21 @@
     }
     
     h2 {
+        font-size: 2rem;
+        font-weight: bold;
         text-align: left;
-        margin: 1rem 0;
-        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    h4{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgba(115, 115, 115, 0.715);
+        margin-bottom: 2rem;
+    }
+
+    p{
+        margin-bottom: 1rem;
     }
 
     ._imgHome{
@@ -33,6 +45,7 @@
         max-width: 100%;
         border-radius: 0px 0px 10px 10px;
         background-color: #222;
+        font: italic smaller sans-serif;
         text-align: center;
         color: #fff;
         padding: 3px;
