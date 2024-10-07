@@ -1,4 +1,12 @@
 ._pageCuriosity{
+
+    .hidden {
+        display: none; /* Oculta o elemento */
+    }
+    
+    .show {
+        display: block; /* Mostra o elemento */
+    }
     
     ._backgroundImage{
         background: url(../img/capa-curiosidade.png);
@@ -10,6 +18,59 @@
         background-size: cover;
         margin-bottom: 3rem;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+    }
+
+    ._contentTest{
+        margin: 3rem 10%; 
+    
+        h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: left;
+            margin-bottom: 0.5rem;
+        }
+    
+        h4{
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: rgba(115, 115, 115, 0.715);
+            margin-bottom: 2rem;
+        }
+    
+        p{
+            margin-bottom: 1rem;
+        }
+    
+        ._imgInfo{
+            width: 500px;
+            max-width: 100%;
+            border-radius: 10px 10px 0px 0px;
+        }
+        
+        figcaption {
+            width: 500px;
+            max-width: 100%;
+            border-radius: 0px 0px 10px 10px;
+            background-color: #222;
+            font: italic smaller sans-serif;
+            text-align: center;
+            color: #fff;
+            padding: 3px;
+        }
+        figure{
+            margin: 2rem 0;
+        }
+    
+        ul{
+            li{
+                margin: 21px auto;
+            }
+        }
+    }
+    
+
+    ._tabela{
+        margin: 2rem 10%;
     }
 
     @media (max-width: 768px) {
