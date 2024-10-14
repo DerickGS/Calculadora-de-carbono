@@ -13,7 +13,7 @@ function InformativePage() {
       <Header/>
         <main className={styles._pageInformative}>
           <div className={styles._backgroundImage}></div>
-          {/* <samp aria-label="Página atual: Curiosidade"></samp> */}
+          <samp aria-label="Página atual: Curiosidade"></samp>
           <div className={styles._contentTest}>
             <h2>Conferências Mundiais</h2>
             <h4>Reuniões entre países sobre preocupações climáticas</h4>

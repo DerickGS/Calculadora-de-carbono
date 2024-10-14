@@ -19,7 +19,7 @@ function CalculationPage() {
             <Header/>
             <main className={styles._pageCalculation}>
                 <div className={styles._backgroundImage}></div>
-                {/* <samp aria-label="Página atual: Calculadora CO₂"></samp> */}
+                <samp aria-label="Página atual: Calculadora CO₂"></samp>
                 <div className={styles._contentTest}>
                     <h2>Vamos Calcular!</h2>
                     <h4>Abaixo teremos a calculora de pegada de carbono de veículos</h4>
