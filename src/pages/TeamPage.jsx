@@ -19,7 +19,7 @@ function TeamPage() {
         <Header/>
         <main className={styles._pageTeam}>
             <div className={styles._backgroundImage}></div>
-            <samp aria-label="Página atual: Equipe"></samp>
+            {/* <samp aria-label="Página atual: Equipe"></samp> */}
             {/* <div className={styles._title}>
                 <div>
                     <h1>Equipe de criação do website</h1>
