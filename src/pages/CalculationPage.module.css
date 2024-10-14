@@ -86,7 +86,8 @@ h1, h2 {
 .container_calc h3 {
     text-align: center;
     margin-top: 0;
-    color: #45a049;
+    margin-bottom: 2rem;
+    /* color: #45a049; */
 }
 
 .transporte_container label {
@@ -104,20 +105,6 @@ h1, h2 {
     border-radius: 4px;
 }
 
-.botao_calc {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.botao_calc:hover {
-    background-color: #45a049;
-}
 
 .comentarios_pequenos {
     font-size: x-small;
@@ -190,6 +177,39 @@ th{
 }
 
 
+._resultadoCalculo {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.45);
+
+    h4{
+        text-align: center;
+    }
+}
+
+._loader {
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    /* Define um gradiente radial como 'g' */
+    --g: radial-gradient(
+        farthest-side, 
+        #0000 calc(95% - 3px), 
+        #eab30f calc(100% - 3px) 98%, 
+        #0000 101%
+    ) no-repeat;
+    background: var(--g), var(--g), var(--g);
+    background-size: 15px 15px;
+    animation: loader 1s infinite alternate;
+}
+
+
+
+
+
+
 /* Media ****************************************************************************************************************8*/
 
 @media (max-width:1136px) {
@@ -211,3 +231,25 @@ th{
 }
 }
 
+
+
+@keyframes loader {
+    0% {
+        background-position: 0 50%, 50% 50%, 100% 50%;
+    }
+    20% {
+        background-position: 0 0, 50% 50%, 100% 50%;
+    }
+    40% {
+        background-position: 0 100%, 50% 0, 100% 50%;
+    }
+    60% {
+        background-position: 0 50%, 50% 100%, 100% 0;
+    }
+    80% {
+        background-position: 0 50%, 50% 50%, 100% 100%;
+    }
+    100% {
+        background-position: 0 50%, 50% 50%, 100% 50%;
+    }
+}
