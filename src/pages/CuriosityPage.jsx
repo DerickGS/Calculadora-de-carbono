@@ -136,19 +136,19 @@ function CuriosityPage() {
                     <p><strong>Calcular o Consumo Total de Combustível: </strong></p>
                     {/* <img src={Calculo1} alt="" className={styles._imgCuri} /> */}
                 </div>
-                <div className={styles._Calculo1} aria-label="O consumo total é igual à distância em quilômetros multiplicada pelo fator de consumo"></div>
+                <figure className={styles._Calculo1} aria-label="O consumo total é igual à distância em quilômetros multiplicada pelo fator de consumo"></figure>
 
                 <div className={styles._contentTitle}>
                     <p><strong>Calcular a Pegada de Carbono: </strong></p>
                     {/* <img src={Calculo2} alt="" className={styles._imgCuri} /> */}
                 </div>
-                <div className={styles._Calculo2} aria-label="A pegada de carbono é igual ao consumo total de energia multiplicado pelo fator de emissão"></div>
+                <figure className={styles._Calculo2} aria-label="A pegada de carbono é igual ao consumo total de energia multiplicado pelo fator de emissão"></figure>
 
                 <div className={styles._contentTitle}>
                     <p><strong>Converter para Toneladas: </strong></p>
                     {/* <img src={Calculo3} alt="" className={styles._imgCuri} /> */}
                 </div>
-                <div className={styles._Calculo3} aria-label="A pegada total em toneladas é igual à pegada de carbono dividida por mil"></div>
+                <figure className={styles._Calculo3} aria-label="A pegada total em toneladas é igual à pegada de carbono dividida por mil"></figure>
 
 
 
