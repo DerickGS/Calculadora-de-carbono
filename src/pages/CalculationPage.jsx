@@ -28,8 +28,8 @@ function CalculationPage() {
                     <br/>
                     <div id="transportes">
                         <div className={styles.transporte_container}>
-                            <label htmlFor="tipoVeiculo1">Tipo de Veículo</label>
-                            <select id="tipoVeiculo1" required>
+                            <label htmlFor="tipoVeiculo">Tipo de Veículo</label>
+                            <select id="tipoVeiculo" required>
                                 <option value="" disabled selected>Selecione o Veículo</option>
                                 <option value="carro">Carro</option>
                                 <option value="moto">Moto</option>
@@ -37,14 +37,14 @@ function CalculationPage() {
                                 <option value="aviao">Avião</option>
                             </select>
 
-                            <label htmlFor="distancia1">Distância (km)</label>
-                            <input type="number" id="distancia1" placeholder="Distância (km)" required />
+                            <label htmlFor="distancia">Distância (km)</label>
+                            <input type="number" id="distancia" placeholder="Distância (km)" required />
 
                             {/* <label htmlFor="consumo1">Consumo (km/l ou m³/km)</label>
                             <input type="number" id="consumo1" placeholder="Consumo (km/l)" required/> */}
 
-                            <label htmlFor="combustivel1">Combustível</label>
-                            <select id="combustivel1" required>
+                            <label htmlFor="combustivel">Combustível</label>
+                            <select id="combustivel" required>
                                 <option value="" disabled selected>Selecione o combustível</option>
                                 <option value="gasolina">Gasolina</option>
                                 <option value="etanol">Etanol</option>
@@ -56,6 +56,14 @@ function CalculationPage() {
                             <p className={styles.comentarios_pequenos}>
                                 Lembre-se: ao escolher <strong>avião</strong>, selecione a opção ¨Querosene de Aviação¨ para maior precisão.
                             </p>
+
+                            <div id="campoPassageiros">
+                                <label htmlFor="passageiros">Número de passageiros</label>
+                                <input type="number" id="passageiros" placeholder="Número de passageiros" min="1" />
+                                <p id="passageirosInfo" className={styles.comentarios_pequenos}></p>
+                            </div>
+                            <label htmlFor="diasPorMes">Quantas vezes ao mês você faz esse percurso?</label>
+                            <input type="number" id="diasPorMes" placeholder="Número de vezes ao mês" required />
                         </div>
                     </div>
                     <button type="button" className="botao_calc btn btn-warning w-100" onClick={calcularPegada}>Calcular Pegada de Carbono</button>

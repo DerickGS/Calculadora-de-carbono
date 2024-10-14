@@ -27,7 +27,7 @@
     ._backgroundImage{
         background: url(../img/capa-curiosidade.png);
         /* background: url(../img/learning-wallpaper.jpg); */
-        height: 25vh;
+        height: 20vh;
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
