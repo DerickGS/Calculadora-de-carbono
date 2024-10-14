@@ -28,7 +28,7 @@ function Footer() {
                 role="button"
                 onClick={scrollToTop}
                 src={Logo} 
-                alt="logo" 
+                alt="Logo da empresa FFWD" 
                 />
             </div>    
             <div className={styles._footer}>

@@ -29,7 +29,7 @@ function Header() {
                         <Link to={"/Home"} role="button" aria-label="Voltar para a home">
                             <img 
                             src={Logo} 
-                            alt="Logo da empresa" 
+                            alt="Logo da empresa FFWD" 
                             className={styles.logo}
                             />
                             {/* <p><samp className={styles.mark}>FFWD</samp></p> */}
@@ -61,11 +61,11 @@ function Header() {
                             <img
                             className={styles.logo_FFWD} 
                             src={FFWD} 
-                            alt="" 
+                            alt="Logo da empresa FFWD" 
                             />
                         </Link>
                     </div>
-                    <button onClick={handleAbrirFecharMenu}>
+                    <button role="button" aria-label="Abrir menu de navegação" onClick={handleAbrirFecharMenu}>
                     {
                         abrirMenu === true ? (
                         <X className={styles.icon} size={32} />
