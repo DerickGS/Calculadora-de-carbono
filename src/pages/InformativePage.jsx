@@ -13,6 +13,7 @@ function InformativePage() {
       <Header/>
         <main className={styles._pageInformative}>
           <div className={styles._backgroundImage}></div>
+          <samp aria-label="Página atual: Informativo"></samp>
           <div className={styles._contentTest}>
             <h2>Conferências Mundiais</h2>
             <h4>Reuniões entre países sobre preocupações climáticas</h4>
@@ -40,7 +41,7 @@ function InformativePage() {
             <p>A 29ª Conferência das Partes tem previsão de ocorrer em 2024. Esta conferência dará continuidade às discussões globais sobre o combate às mudanças climáticas, representando um momento decisivo para avaliar as metas estabelecidas em conferências anteriores e discutir novas formas de ação para o cumprimento do Acordo de Paris. </p>
             <p>A COP29 ocorre em um contexto global de crescentes impactos das mudanças climáticas, como desastres naturais mais frequentes, aumento do nível do mar e a necessidade de transição para economias mais sustentáveis (IPCC, 2023). </p>
             <figure>
-                <img className={styles._imgInfo} src={Cop29} alt="A 29ª Conferência das Partes (COP 28), em Baku, Azerbaijão, de 11 a 22 de novembro de 2024" />
+                <img className={styles._imgInfo} src={Cop29} alt="A 29ª Conferência das Partes (COP 29), em Baku, Azerbaijão, de 11 a 22 de novembro de 2024" />
                 <figcaption>Foto: The COP29 Presidency Team</figcaption>
             </figure>
             <ul>

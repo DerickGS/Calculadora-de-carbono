@@ -61,7 +61,7 @@ function Header() {
                             <img
                             className={styles.logo_FFWD} 
                             src={FFWD} 
-                            alt="Logo da empresa FFWD" 
+                            alt="Logo da empresa FFWD Carbon Credits" 
                             />
                         </Link>
                     </div>

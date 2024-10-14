@@ -19,6 +19,7 @@ function CalculationPage() {
             <Header/>
             <main className={styles._pageCalculation}>
                 <div className={styles._backgroundImage}></div>
+                <samp aria-label="Página atual: Calculadora CO₂"></samp>
                 <div className={styles._contentTest}>
                     <h2>Vamos Calcular!</h2>
                     <h4>Abaixo teremos a calculora de pegada de carbono de veículos</h4>
@@ -108,7 +109,7 @@ function CalculationPage() {
 
                             <thead className="table table-dark">
                                 <tr>
-                                    <th scope="col"><a className="btn btn-secondary active  ">Requisitos</a></th>
+                                    <th scope="col"><samp className="btn btn-secondary active w-100 ">Requisitos</samp></th>
                                     <th scope="col"><a className="btn btn-outline-warning" translate="no" href="https://co2.myclimate.org/en/calculate_emissions">My Climate</a></th>
                                     <th scope="col"><a className="btn btn-outline-warning" translate="no" href="https://www.footprintcalculator.org/home/en">Footprint</a></th>
                                     <th scope="col"><a className="btn btn-outline-warning" translate="no" href="https://calculator.moss.earth/">Moss</a></th>

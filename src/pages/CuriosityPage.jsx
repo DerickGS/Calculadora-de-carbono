@@ -18,6 +18,7 @@ function CuriosityPage() {
             <Header/>
             <body className={styles._pageCuriosity}>
                 <div className={styles._backgroundImage}></div>
+                <samp aria-label="Página atual: Curiosidade"></samp>
                 <div className={styles._contentTest}>
                     <h2>Calculadora de CO₂</h2>
                     <h4>Entenda como é feito o cálculo</h4>

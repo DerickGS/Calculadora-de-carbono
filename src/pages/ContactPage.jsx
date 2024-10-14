@@ -29,7 +29,7 @@ function ContactPage() {
         <main>
             <Header/>
             <body>
-                {/* <h1 className={styles}>Pagina de contato</h1> */}
+                <samp aria-label="Página atual: Contato"></samp>
                 <div>
                     <form className={styles._formEmail} action="https://formsubmit.co/derick@eaportal.org" method="POST">
                         <h3>Conte-nos o que você achou!</h3>
@@ -55,7 +55,7 @@ function ContactPage() {
                             <label>Mensagem</label>
                             <textarea name="message" placeholder="Mensagem:" required />
                         </div>
-                        <button type="button" className="btn btn-warning"> <PaperPlaneTilt size={21} /> Enviar Mensagem</button>
+                        <button type="button" role="button" className="btn btn-warning"> <PaperPlaneTilt size={21} /> Enviar Mensagem</button>
                     </form>
                 </div>
             </body>
