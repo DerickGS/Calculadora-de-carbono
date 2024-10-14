@@ -16,7 +16,7 @@ function Home() {
             <Header/>
             <main className={styles._pageHome}>
                 <div className={styles._backgroundImage}></div>
-                <a aria-label="Página atual: Home"></a>
+                {/* <samp aria-label="Página atual: Home"></samp> */}
                 <div className={styles._content}>
                     <h2>Conceito de CO₂</h2>
                     <h4>Dióxido de carbono e seu impacto</h4>
