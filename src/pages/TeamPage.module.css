@@ -64,6 +64,7 @@
         
         ._contacts{
             transition: ease-in-out 0.3s;
+            justify-content: space-evenly;
         }
     }
 

@@ -23,13 +23,14 @@ function Footer() {
                 <Link to ={"/TeamPage"}>Equipe</Link>
             </div>
             <hr />
-            <dv className={styles._imgLogo}>
-                <img 
+            <div className={styles._imgLogo}>
+                <img
+                role="button"
                 onClick={scrollToTop}
                 src={Logo} 
                 alt="logo" 
                 />
-            </dv>    
+            </div>    
             <div className={styles._footer}>
                 <p>© {currentYear}</p>
             </div>

@@ -136,19 +136,19 @@ function CuriosityPage() {
                     <p><strong>Calcular o Consumo Total de Combustível: </strong></p>
                     {/* <img src={Calculo1} alt="" className={styles._imgCuri} /> */}
                 </div>
-                <div className={styles._Calculo1}></div>
+                <div className={styles._Calculo1} aria-label="O consumo total é igual à distância em quilômetros multiplicada pelo fator de consumo"></div>
 
                 <div className={styles._contentTitle}>
                     <p><strong>Calcular a Pegada de Carbono: </strong></p>
-                    {/* <img src={Calculo1} alt="" className={styles._imgCuri} /> */}
+                    {/* <img src={Calculo2} alt="" className={styles._imgCuri} /> */}
                 </div>
-                <div className={styles._Calculo2}></div>
+                <div className={styles._Calculo2} aria-label="A pegada de carbono é igual ao consumo total de energia multiplicado pelo fator de emissão"></div>
 
                 <div className={styles._contentTitle}>
                     <p><strong>Converter para Toneladas: </strong></p>
-                    {/* <img src={Calculo1} alt="" className={styles._imgCuri} /> */}
+                    {/* <img src={Calculo3} alt="" className={styles._imgCuri} /> */}
                 </div>
-                <div className={styles._Calculo3}></div>
+                <div className={styles._Calculo3} aria-label="A pegada total em toneladas é igual à pegada de carbono dividida por mil"></div>
 
 
 
@@ -170,7 +170,7 @@ function CuriosityPage() {
                     <h4>Veja todas nossas referências que compôem as informações presentes nesse website</h4>
                     
                     
-                    <button id="toggleButton" onClick={toggleVisibility} className="btn btn-warning btn-lg btn-block w-100">
+                    <button type="button" id="toggleButton" onClick={toggleVisibility} className="btn btn-warning btn-lg btn-block w-100">
                     {isVisible ? "Ocultar Referências" : "Referências"}
                     </button>
                     <div className={`${styles.toggleText} ${isVisible ? styles.show : styles.hidden}`}>

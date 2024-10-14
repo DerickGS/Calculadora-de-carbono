@@ -83,7 +83,7 @@ function CalculationPage() {
                     <div className="alert alert-warning fade show" role="alert">
                     <img 
                     src= {Question}
-                    alt="" 
+                    alt="Icone pergunta" 
                     width="50px"
                     />
                     <br />
@@ -122,144 +122,144 @@ function CalculationPage() {
                             <tbody>
                                 <tr>
                                     <th scope="row">Gratuito</th>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
                                 </tr>
 
                                 <tr>
                                     <th scope="row">Cálculo Pegada de CO² Pessoal</th>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
                                 </tr>
 
                                 <tr>
                                     <th scope="row">Cálculo Para Empresa</th>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
                                 </tr>
                                 
                                 <tr>
                                     <th scope="row">Cálculo Consumo Energia</th>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
                                 </tr>
 
                                 <tr>
                                     <th scope="row">Cálculo Transporte Púb.</th>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Cálculo Transporte Priv.</th>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
                                 </tr>
 
                                 <tr>
                                     <th scope="row">Cálculo Transporte Áereo</th>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
                                 </tr>
                                 
                                 <tr>
                                     <th scope="row">Cálculo Transporte Marítimo</th>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
                                 </tr>
 
                                 <tr>
                                     <th scope="row">Cálculo Consumo de Carne</th>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
                                 </tr>
 
                                 <tr>
                                     <th scope="row">Cálculo Gastos de Roupas</th>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
                                 </tr>
 
                                 <tr>
                                     <th scope="row">Cálulo de Resíduos</th>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
                                 </tr>
 
                                 <tr>
                                     <th scope="row">Cálculo Gastos de Técnologia</th>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
-                                    <td><img src={Wrong} alt="" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
+                                    <td><img src={Wrong} alt="Icone errado" width="25px"/></td>
                                 </tr>
 
                                 <tr>
                                     <th scope="row">Compensar CO²</th>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
-                                    <td><img src={Correct} alt="" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
+                                    <td><img src={Correct} alt="Icone correto" width="25px"/></td>
                                 </tr>
                             </tbody>
 
@@ -278,7 +278,7 @@ function CalculationPage() {
                     <div className="alert alert-warning fade show" role="alert">
                     <img 
                     src= {Question}
-                    alt="" 
+                    alt="Icone pergunta" 
                     width="50px"
                     />
                     <br />
