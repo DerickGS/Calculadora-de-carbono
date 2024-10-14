@@ -19,7 +19,7 @@ function TeamPage() {
         <Header/>
         <main className={styles._pageTeam}>
             <div className={styles._backgroundImage}></div>
-            <samp aria-label="Página atual: Equipe"></samp>
+            <a aria-label="Página atual: Equipe"></a>
             <section>
                 <div className={styles._gridCards}>
 

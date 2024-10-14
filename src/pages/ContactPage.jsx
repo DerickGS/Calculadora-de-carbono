@@ -29,7 +29,7 @@ function ContactPage() {
         <main>
             <Header/>
             <body>
-                <samp aria-label="Página atual: Contato"></samp>
+                <a aria-label="Página atual: Contato"></a>
                 <div>
                     <form className={styles._formEmail} action="https://formsubmit.co/derick@eaportal.org" method="POST">
                         <h3>Conte-nos o que você achou!</h3>
