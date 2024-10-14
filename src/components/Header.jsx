@@ -26,7 +26,7 @@ function Header() {
             <div className={styles.desktop}>
                 <div className={styles.desktopComponents}>
                     <div className={styles.mark_imgText}>
-                        <Link to={"/Home"}>
+                        <Link to={"/Home"} role="button" aria-label="Voltar para a home">
                             <img 
                             src={Logo} 
                             alt="Logo da empresa" 
@@ -39,7 +39,7 @@ function Header() {
                         <Link to={"/Home"}><p translate="no" className={styles.option}> Home</p></Link>
                         <Link to={"/InformativePage"}><p className={styles.option}>Informativo</p></Link>
                         <Link to={"/CalculationPage"}><p className={styles.option}>Calculadora CO₂</p></Link>
-                        <button onClick={handleAbrirFecharMenu}>
+                        <button role="button" aria-label="Abrir menu de outras opções" onClick={handleAbrirFecharMenu}>
                             <CaretDown className={styles.icon} size={32} />
                         </button>
                     </div>
@@ -57,7 +57,7 @@ function Header() {
             <div className={styles.mobile}>
                 <div className={styles.mobileComponents}>
                     <div className={styles.mark_imgText}>
-                        <Link to={"/Home"}>
+                        <Link to={"/Home"} role="button" aria-label="Voltar para a home">
                             <img
                             className={styles.logo_FFWD} 
                             src={FFWD} 
