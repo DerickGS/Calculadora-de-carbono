@@ -22,7 +22,6 @@ const fatoresEmissao = {
 
 
 
-
 // Função para calcular a pegada de carbono para um único meio de transporte
 function calcularPegadaCarbonoTransporte(distanciaKm, tipoCombustivel, tipoVeiculo, passageiros, diasPorMes) {
     
@@ -52,6 +51,12 @@ function calcularPegadaCarbonoTransporte(distanciaKm, tipoCombustivel, tipoVeicu
     }else if (tipoVeiculo === 'moto' && (tipoCombustivel !== 'etanol' && tipoCombustivel !== 'gasolina')) {
         Swal.fire("Combustível inválido", "Para o tipo de veículo 'Moto', o combustível deve ser 'Gasolina' ou 'Etanol'", "error");
         return;
+    }else if (tipoVeiculo === 'carro' && tipoCombustivel === 'querosene_aviacao' ){
+        Swal.fire("Combustível inválido", "Para o tipo de veículo 'Carro', o combustível não pode ser 'Querosene de Aviação'", "error");
+        return;
+    }else if (tipoVeiculo === 'carro' && passageiros > 4 ){
+        Swal.fire("Número de passageiros inválido", "Para o tipo de veículo 'Carro', a quantidade de passageiros deve ser menor que ou igual à '4'", "error");
+        return;
     }else if (tipoCombustivel === "") {
         Swal.fire("Seleção obrigatória", "Você deve selecionar o tipo de combustível antes de calcular", "error");
         return ;
@@ -76,6 +81,7 @@ function calcularPegadaCarbonoTransporte(distanciaKm, tipoCombustivel, tipoVeicu
 
     return pegadaCarbono;  // em kg CO2
 }
+
 
 // Função chamada pelo botão para calcular a pegada de carbono
 function calcularPegada() {

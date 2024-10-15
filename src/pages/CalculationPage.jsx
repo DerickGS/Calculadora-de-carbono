@@ -62,6 +62,10 @@ function CalculationPage() {
                                 <label htmlFor="passageiros">Número de passageiros</label>
                                 <input type="number" id="passageiros" placeholder="Número de passageiros" min="1" />
                                 <p id="passageirosInfo" className={styles.comentarios_pequenos}></p>
+                                <p className={styles.comentarios_pequenos}>
+                                    Lembre-se: O número médio de passageiros em um <strong>Ônibus</strong> é de 40.  O número médio de passageiros em um <strong>Avião</strong> é de 180. 
+                                </p>
+                              
                             </div>
                             <label htmlFor="diasPorMes">Quantas vezes ao mês você faz esse percurso?</label>
                             <input type="number" id="diasPorMes" placeholder="Número de vezes ao mês" required />
