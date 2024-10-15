@@ -90,7 +90,7 @@ function Header() {
                         <Link onClick={handleAbrirFecharMenu} to={"/ContactPage"} className={styles.button_options} ><p>Contato  <PaperPlaneTilt size={21} /></p></Link>
                         <hr />
                         <Link onClick={handleAbrirFecharMenu} to={"/TeamPage"} className={styles.button_options} ><p>Equipe  <UsersThree size={21} /></p></Link>
-                        <a onClick={handleAbrirFecharMenu} className={styles._headerClose}></a>
+                        {/* <a onClick={handleAbrirFecharMenu} className={styles._headerClose}></a> */}
                     </nav>
                 </div>
             </div>

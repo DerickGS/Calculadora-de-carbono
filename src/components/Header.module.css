@@ -62,13 +62,14 @@
     
     .close.open{
         transform: translateY(0);
-        
+/*         
             ._headerClose{
-                z-index: -1;
+                z-index: -3;
                 position: absolute;
                 width: 100%;
-                height: 100vh;
-            }
+                height: calc(100vh - 344px);
+                margin-top: 270px;
+            } */
     }
 }
 .open{
