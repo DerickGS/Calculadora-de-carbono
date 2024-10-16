@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import styles from "./CalculationPage.module.css"
 
 import {calcularPegada} from "../js/CalculationPage.js" 
+import {bloquearCombustivelPassageiros} from "../js/CalculationPage.js" 
 
 import Question from "../img/question.png"
 import Correct from "../img/correct.png"
@@ -30,7 +31,7 @@ function CalculationPage() {
                     <div id="transportes">
                         <div className={styles.transporte_container}>
                             <label htmlFor="tipoVeiculo">Tipo de Veículo</label>
-                            <select id="tipoVeiculo" required>
+                            <select id="tipoVeiculo" onClick={bloquearCombustivelPassageiros} required>
                                 <option value="" disabled selected>Selecione o Veículo</option>
                                 <option value="carro">Carro</option>
                                 <option value="moto">Moto</option>
@@ -40,9 +41,6 @@ function CalculationPage() {
 
                             <label htmlFor="distancia">Distância (km)</label>
                             <input type="number" id="distancia" placeholder="Distância (km)" required />
-
-                            {/* <label htmlFor="consumo1">Consumo (km/l ou m³/km)</label>
-                            <input type="number" id="consumo1" placeholder="Consumo (km/l)" required/> */}
 
                             <label htmlFor="combustivel">Combustível</label>
                             <select id="combustivel" required>
@@ -54,18 +52,11 @@ function CalculationPage() {
                                 <option value="querosene_aviacao">Querosene de Aviação</option>
                                 <option value="hibrido">Híbrido</option>
                             </select>
-                            <p className={styles.comentarios_pequenos}>
-                                Lembre-se: ao escolher <strong>avião</strong>, selecione a opção ¨Querosene de Aviação¨ para maior precisão.
-                            </p>
 
                             <div id="campoPassageiros">
                                 <label htmlFor="passageiros">Número de passageiros</label>
                                 <input type="number" id="passageiros" placeholder="Número de passageiros" min="1" />
                                 <p id="passageirosInfo" className={styles.comentarios_pequenos}></p>
-                                <p className={styles.comentarios_pequenos}>
-                                    Lembre-se: O número médio de passageiros em um <strong>Ônibus</strong> é de 40.  O número médio de passageiros em um <strong>Avião</strong> é de 180. 
-                                </p>
-                              
                             </div>
                             <label htmlFor="diasPorMes">Quantas vezes ao mês você faz esse percurso?</label>
                             <input type="number" id="diasPorMes" placeholder="Número de vezes ao mês" required />
