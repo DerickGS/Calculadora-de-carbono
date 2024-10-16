@@ -91,7 +91,7 @@ function Header() {
                         <hr />
                         <Link onClick={handleAbrirFecharMenu} to={"/TeamPage"} className={styles.button_options} ><p>Equipe  <UsersThree size={21} /></p></Link>
                     </nav>
-                        <a onClick={handleAbrirFecharMenu} className={styles._headerClose}></a>
+                        <a role="button" onClick={handleAbrirFecharMenu} className={styles._headerClose}></a>
                 </div>
             </div>
         </header>
