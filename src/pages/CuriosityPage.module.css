@@ -132,6 +132,15 @@
         margin-bottom: 3rem;
     }
 
+    ._CalculoImg{
+        opacity: 0;
+        height: 130px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
     ._tabela{
         margin: 2rem 10%;
     }

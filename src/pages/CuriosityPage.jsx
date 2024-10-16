@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 
 import styles from "./CuriosityPage.module.css"
 
-// import Calculo1 from "../img/calculo1.png"
-// import Calculo2 from "../img/calculo1.png"
-// import Calculo3 from "../img/calculo1.png"
+import Calculo1 from "../img/calculo1.png"
+import Calculo2 from "../img/calculo1.png"
+import Calculo3 from "../img/calculo1.png"
 
 function CuriosityPage() {
     const [isVisible, setIsVisible] = useState(false);
@@ -140,22 +140,22 @@ function CuriosityPage() {
                     <h3>Passo a Passo do Cálculo</h3>
                     <p><strong>Calcular o Consumo Total de Combustível: </strong></p>
                 </div>
-                <figure className={styles._Calculo1} aria-label="O consumo total é igual à distância em quilômetros multiplicada pelo fator de consumo">
-                    {/* <img className={styles._Calculo1} src={Calculo1} alt="O consumo total é igual à distância em quilômetros multiplicada pelo fator de consumo" /> */}
+                <figure className={styles._Calculo1}>
+                    <img className={styles._CalculoImg} src={Calculo1} alt="O consumo total é igual à distância em quilômetros multiplicada pelo fator de consumo" />
                 </figure>
 
                 <div className={styles._contentTitle}>
                     <p><strong>Calcular a Pegada de Carbono: </strong></p>
                 </div>
-                <figure className={styles._Calculo2} aria-label="A pegada de carbono é igual ao consumo total de energia multiplicado pelo fator de emissão">
-                    {/* <img className={styles._Calculo1} src={Calculo2} alt="A pegada de carbono é igual ao consumo total de energia multiplicado pelo fator de emissão" /> */}
+                <figure className={styles._Calculo2}>
+                    <img className={styles._CalculoImg} src={Calculo2} alt="A pegada de carbono é igual ao consumo total de energia multiplicado pelo fator de emissão" />
                 </figure>
 
                 <div className={styles._contentTitle}>
                     <p><strong>Converter para Toneladas: </strong></p>
                 </div>
-                <figure className={styles._Calculo3} aria-label="A pegada total em toneladas é igual à pegada de carbono dividida por mil">
-                    {/* <img className={styles._Calculo1} src={Calculo3} alt="A pegada total em toneladas é igual à pegada de carbono dividida por mil" /> */}
+                <figure className={styles._Calculo3}>
+                    <img className={styles._CalculoImg} src={Calculo3} alt="A pegada total em toneladas é igual à pegada de carbono dividida por mil" />
                 </figure>
 
 
