@@ -31,7 +31,7 @@ function CalculationPage() {
                     <div id="transportes">
                         <div className={styles.transporte_container}>
                             <label htmlFor="tipoVeiculo">Tipo de Veículo</label>
-                            <select id="tipoVeiculo" onClick={bloquearCombustivelPassageiros} required>
+                            <select id="tipoVeiculo" onChange={bloquearCombustivelPassageiros} required>
                                 <option value="" disabled selected>Selecione o Veículo</option>
                                 <option value="carro">Carro</option>
                                 <option value="moto">Moto</option>
