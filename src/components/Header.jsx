@@ -41,7 +41,7 @@ function Header() {
                         <Link to={"/Home"}><p translate="no" className={styles.option}> Home</p></Link>
                         <Link to={"/InformativePage"}><p className={styles.option}>Informativo</p></Link>
                         <Link to={"/CalculationPage"}><p className={styles.option}>Calculadora CO₂</p></Link>
-                        <button role="button" aria-label="Abrir menu de outras opções" onClick={handleAbrirFecharMenu}>
+                        <button role="button" aria-label="Abrir menu com mais opções" onClick={handleAbrirFecharMenu}>
                             <CaretDown className={styles.icon} size={32} />
                         </button>
                     </div>
@@ -91,7 +91,7 @@ function Header() {
                         <hr />
                         <Link onClick={handleAbrirFecharMenu} to={"/TeamPage"} className={styles.button_options} ><p>Equipe  <UsersThree size={21} /></p></Link>
                     </nav>
-                        <a role="button" onClick={handleAbrirFecharMenu} className={styles._headerClose}></a>
+                        <a role="button"  aria-label="Fechar menu de navegação" onClick={handleAbrirFecharMenu} className={styles._headerClose}></a>
                 </div>
             </div>
         </header>
