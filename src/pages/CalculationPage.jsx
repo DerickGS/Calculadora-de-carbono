@@ -9,10 +9,16 @@ import styles from "./CalculationPage.module.css"
 
 import {calcularPegada} from "../js/CalculationPage.js" 
 import {bloquearCombustivelPassageiros} from "../js/CalculationPage.js" 
+import {calcularArvore} from "../js/CalcTree.js" 
+import {calcularCredito} from "../js/CalcTree.js" 
 
 import Question from "../img/question.png"
 import Correct from "../img/correct.png"
 import Wrong from "../img/wrong.png"
+
+import Poluicao from "../img/poluicao_icon.png"
+import Arvore from "../img/tree_icon.png"
+import Moeda from "../img/coin_icon.png"
 
 function CalculationPage() {
     return (
@@ -62,15 +68,42 @@ function CalculationPage() {
                             <input type="number" id="diasPorMes" placeholder="Número de vezes ao mês" required />
                         </div>
                     </div>
-                    <button type="button" className="botao_calc btn btn-warning w-100" onClick={calcularPegada}>Calcular Pegada de Carbono</button>
-                    <p className={styles.comentarios_pequenos}>Atenção: <strong>não</strong> deixe campos vazios.</p>
-                    <h3>Resultado por passageiro:</h3>
-                    {/* <h2 id="resultado">0 toneladas de CO₂</h2> */}
-                    <div className={styles._resultadoCalculo}>
-                        <h4 id="resultado">
-                            <div className={styles._loader}></div>
-                        </h4>
+                    
+                    <div className={styles.resultadoCalculoCarbono}>
+                        <img width="70px" src={Poluicao} alt="Icone referente a poluição" />
+                        <button type="button" className="botao_calc btn btn-warning" onClick={calcularPegada}>Calcular Pegada de Carbono</button>
+                        <p className={styles.comentarios_pequenos}> <strong>Atenção:</strong> Não deixe campos vazios.</p>
+                        <div className={styles._resultado}>
+                            <h2 id="resultado" className="">
+                                <div className={styles.loader}></div>
+                            </h2>
+                        </div>
                     </div>
+
+                    <div className={styles.resultadoCalculoArvore}>
+                        <img width="70px" src={Arvore} alt="Icone referente a uma Árvore" />
+                        <button type="button" className="botao_calc btn btn-warning" onClick={calcularArvore}>Calcular Pegada de Carbono</button>
+                        <p className={styles.comentarios_pequenos}>A cada tonelada de CO₂ emitidos, são necessárias <strong>7 árvores</strong> nos seus primeiros <strong>20 anos de idade</strong> para compensar.<br/><i>Fonte: <a href="https://www.ibflorestas.org.br/conteudo/compensacao-de-co2#:~:text=A%20cada%207%20%C3%A1rvores%2C%20%C3%A9,de%20Efeito%20Estufa%20(GEE).">Instituto Brasileiro de Florestas</a> atualizado em 18/10/2024</i></p>
+                        <div className={styles._resultado}>
+                            <h2 id="resultadoArvoresGrande">
+                                <div className={styles.loader}></div>
+                            </h2>
+                            <h4 id="resultadoArvores"></h4>
+                        </div>
+                    </div>
+
+                    <div className={styles.resultadoCalculoCredito}>
+                        <img width="70px" src={Moeda} alt="Icone referente a credito" />
+                        <button type="button" className="botao_calc btn btn-warning" onClick={calcularCredito}>Calcular Pegada de Carbono</button>
+                        <p className={styles.comentarios_pequenos}>A cada tonelada de CO₂ emitidos, é necessário <strong>1</strong> crédito de carbono para compensar, custando <strong>R$ 53,80</strong> cada.<br/><i>Fonte: <a href="https://credcarbo.com/comprar">CredCarbon</a> atualizado em 18/10/2024</i></p>
+                        <div className={styles._resultado}>
+                            <h2 id="resultadoCreditoGrande">
+                                <div className={styles.loader}></div>
+                            </h2>
+                            <h4 id="resultadoCredito"></h4>
+                        </div>
+                    </div>
+
                 </div>
                 
 

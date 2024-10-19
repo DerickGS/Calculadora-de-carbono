@@ -92,7 +92,7 @@ h1, h2 {
 }
 
 .transporte_container input,
-.transporte_container select {
+.transporte_container select, ._resultado {
     width: 98%;
     padding: 8px;
     margin-bottom: 10px;
@@ -107,9 +107,97 @@ h1, h2 {
 
 .centralizar_botao {
     text-align: center;
-    
 }
 
+.resultadoCalculoCarbono {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.resultadoCalculoArvore {
+    background-color: #a8dd9a36;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(0, 255, 76);
+    
+}
+.resultadoCalculoCredito {
+    background-color: #9ab6dd36;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 47, 255, 0.33);
+}
+
+._resultado{
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.45);
+
+    h4{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.resultadoCalculoCarbono, .resultadoCalculoArvore, .resultadoCalculoCredito{
+    button{
+        width: 100%;
+    }
+}
+
+.resultadoCalculoCarbono{
+
+    h2{
+        color: #ffb300;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.resultadoCalculoArvore{
+    button{
+        color: #fff;
+        background-color: #28a745;
+        border: 1px solid transparent;
+        border-color: #28a745;
+    }
+    
+    button:hover{
+        background-color: #45a049;
+    }
+
+    h2{
+        color: #28a745;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.resultadoCalculoCredito{
+    button{
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    
+    button:hover{
+        background-color: #006ad4;
+    }
+
+    h2{
+        color: #28a745;
+        margin: auto;
+        text-align: center;
+    }
+}
 
 ._cardInfo{
     text-align: center;
@@ -176,37 +264,25 @@ th{
 }
 
 
-._resultadoCalculo {
-    background-color: #f9f9f9;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.45);
 
-    h4{
-        text-align: center;
-    }
-}
 
-._loader {
-    width: 100px;
-    height: 40px;
+
+.loader {
+    height: 50px;
+    aspect-ratio: 2;
+    border: 10px solid #ffffff;
+    box-sizing: border-box;
+    background: 
+        radial-gradient(farthest-side, gray  98%,#0000) left/20px 20px,
+        radial-gradient(farthest-side,gray  98%,#0000) left/20px 20px,
+        radial-gradient(farthest-side,gray  98%,#0000) center/20px 20px,
+        radial-gradient(farthest-side,gray  98%,#0000) right/20px 20px,
+        #ffffff ;
+    background-repeat: no-repeat;
+    filter: blur(4px) contrast(10);
+    animation: l14 3s infinite;
     margin: auto;
-    /* Define um gradiente radial como 'g' */
-    --g: radial-gradient(
-        farthest-side, 
-        #0000 calc(95% - 3px), 
-        #eab30f calc(100% - 3px) 98%, 
-        #0000 101%
-    ) no-repeat;
-    background: var(--g), var(--g), var(--g);
-    background-size: 15px 15px;
-    animation: loader 1s infinite alternate;
 }
-
-
-
-
 
 
 /* Media ****************************************************************************************************************8*/
@@ -231,24 +307,6 @@ th{
 }
 
 
-
-@keyframes loader {
-    0% {
-        background-position: 0 50%, 50% 50%, 100% 50%;
-    }
-    20% {
-        background-position: 0 0, 50% 50%, 100% 50%;
-    }
-    40% {
-        background-position: 0 100%, 50% 0, 100% 50%;
-    }
-    60% {
-        background-position: 0 50%, 50% 100%, 100% 0;
-    }
-    80% {
-        background-position: 0 50%, 50% 50%, 100% 100%;
-    }
-    100% {
-        background-position: 0 50%, 50% 50%, 100% 50%;
-    }
+@keyframes l14 {
+    100%  {background-position:right,left,center,right}
 }

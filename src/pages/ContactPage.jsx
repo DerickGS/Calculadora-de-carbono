@@ -55,7 +55,9 @@ function ContactPage() {
                             <label>Mensagem</label>
                             <textarea name="message" placeholder="Mensagem:" required />
                         </div>
+
                         <button className="btn btn-warning"> <PaperPlaneTilt size={21} /> Enviar Mensagem</button>
+                        <div className={styles.loader}></div>
                     </form>
                 </div>
             </body>

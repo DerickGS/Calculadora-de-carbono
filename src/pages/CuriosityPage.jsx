@@ -8,6 +8,7 @@ import styles from "./CuriosityPage.module.css"
 import Calculo1 from "../img/calculo1.png"
 import Calculo2 from "../img/calculo1.png"
 import Calculo3 from "../img/calculo1.png"
+import CreditoDeCarbono from "../img/Credito-de-carbono.png"
 
 function CuriosityPage() {
     const [isVisible, setIsVisible] = useState(false);
@@ -159,13 +160,18 @@ function CuriosityPage() {
                 </figure>
 
 
-
                 <div className={styles._contentTest}>
                     <p>Portanto, ao inserir 100 km percorridos em um carro que utiliza gasolina, a pegada de carbono resultante seria de aproximadamente <strong>0.0228 toneladas de CO₂</strong>.</p>
+                    <p>Vale ressaltar que o número de passageiros e a quantidade de viagens também interfere no resultado. Se, por exemplo, o usuário preencher que faz essa mesma viagem 10 vezes ao mês, o valor de 0.0228 será <strong>multiplicado</strong> por 10, outro exemplo seria caso o usuário preencher que há 3 passageiros, o valor de 0.0228 será <strong>divido</strong> por 3.</p>
                     <hr/>
                     <h2>Crédito de Carbono</h2>
                     <h4>Como compensar suas emissões de carbono</h4>
                     <p>O crédito de carbono é um mecanismo de mercado que permite que empresas ou países que excedem suas metas de redução de emissões compensem essa diferença comprando créditos de carbono de organizações que estão abaixo de suas metas. Um crédito de carbono equivale a uma tonelada de CO₂ que foi evitada ou removida da atmosfera. Este sistema incentiva a adoção de práticas mais limpas e a criação de tecnologias que reduzam as emissões.</p>
+                </div>
+                    <figure className={styles._CreditoDeCarbono}>
+                        <img className={styles._CalculoImg} src={CreditoDeCarbono} alt="Um crédito de carbono representa uma tonelada de CO₂"/>
+                    </figure>
+                <div className={styles._contentTest}>
                     <p>No entanto, o sistema de créditos de carbono também possui pontos negativos, pois, se pararmos para pensar, ele pode permitir que grandes poluidores continuem emitindo, enquanto simplesmente compram créditos, ao invés de realizar mudanças significativas em seus processos produtivos. A solução definitiva para o problema das emissões seria reduzir diretamente as atividades intensivas em carbono, em vez de apenas compensá-las.</p>
                     <hr/>
 

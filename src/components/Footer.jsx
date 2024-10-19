@@ -13,7 +13,7 @@ function Footer() {
             top: 0,
             behavior: 'smooth'
         })
-       }
+    };
 
     return (
         <footer>
