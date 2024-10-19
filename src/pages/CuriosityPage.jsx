@@ -7,7 +7,7 @@ import styles from "./CuriosityPage.module.css"
 
 import Calculo1 from "../img/calculo1.png"
 import Calculo2 from "../img/calculo2.png"
-import Calculo3 from "../img/calculo2.png"
+import Calculo3 from "../img/calculo3.png"
 import CreditoDeCarbono from "../img/Credito-de-carbono.png"
 
 function CuriosityPage() {
