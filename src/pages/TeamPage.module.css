@@ -24,7 +24,7 @@
         grid-template-columns: 200px 200px 200px 200px;
         gap: 20px;
         justify-content: space-evenly;
-        margin-inline: 40px;
+        margin-inline: 10%;
     }
 
     ._cards{
@@ -126,7 +126,7 @@
         background: rgb(14, 118, 168);
     }
     
-    @media (max-width: 1024px) {
+    @media (max-width: 1075px) {
         ._gridCards{
             grid-template-columns: 200px 200px;
         }
@@ -142,12 +142,20 @@
         
     }
     
-    @media (max-width: 520px) {
+    @media (max-width: 525px) {
         ._gridCards{
             grid-template-columns: 200px;
         }
 
     }
+
+    @media (min-width: 1440px) {
+
+        section{
+            margin: 3rem auto;
+            max-width: 1440px;         
+        }
+    }   
     
     @media (min-width: 1024px) {
         section{

@@ -159,6 +159,19 @@
         word-break: break-all;
     }
 
+    @media (min-width: 1440px) {
+
+        ._contentTest, ._contentTitle{
+            margin: 3rem auto;
+            max-width: 1152px;         
+        }
+
+        ._Calculo1, ._Calculo2 ,._Calculo3 , ._CreditoDeCarbono, ._CalculoImg {
+            height: unset;
+        }
+    }
+
+
     @media (max-width: 768px) {
         ._backgroundImage{
             height: 120px;

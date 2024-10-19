@@ -74,7 +74,7 @@ h1, h2 {
     background-color: #f9f9f9;
     padding: 15px;
     margin-bottom: 15px;
-    border-radius: px;
+    border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -113,7 +113,7 @@ h1, h2 {
     background-color: #f9f9f9;
     padding: 15px;
     margin-bottom: 15px;
-    border-radius: px;
+    border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -134,7 +134,7 @@ h1, h2 {
 }
 
 ._resultado{
-    margin-top: 50px;
+    margin-top: 37px;
     background-color: #ffffff;
     padding: 15px;
     margin-bottom: 15px;
@@ -286,6 +286,14 @@ th{
 
 
 /* Media ****************************************************************************************************************8*/
+
+@media (min-width: 1440px) {
+
+    ._contentTest, ._cardInfo{
+        margin: 3rem auto;
+        max-width: 1152px;         
+    }
+}
 
 @media (max-width:1136px) {
     
