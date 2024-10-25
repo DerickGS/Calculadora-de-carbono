@@ -82,7 +82,7 @@ function CalculationPage() {
 
                     <div className={styles.resultadoCalculoArvore}>
                         <img width="70px" src={Arvore} alt="Icone referente a uma Árvore" />
-                        <button type="button" className="botao_calc btn btn-warning" onClick={calcularArvore}>Calcular Pegada de Carbono</button>
+                        <button type="button" className="botao_calc btn btn-warning" onClick={calcularArvore}>Árvores Necessárias</button>
                         <p className={styles.comentarios_pequenos}>A cada tonelada de CO₂ emitidos, são necessárias <strong>7 árvores</strong> nos seus primeiros <strong>20 anos de idade</strong> para compensar.<br/><i>Fonte: <a href="https://www.ibflorestas.org.br/conteudo/compensacao-de-co2#:~:text=A%20cada%207%20%C3%A1rvores%2C%20%C3%A9,de%20Efeito%20Estufa%20(GEE).">Instituto Brasileiro de Florestas</a> atualizado em 18/10/2024</i></p>
                         <div className={styles._resultado}>
                             <h2 id="resultadoArvoresGrande">
@@ -94,7 +94,7 @@ function CalculationPage() {
 
                     <div className={styles.resultadoCalculoCredito}>
                         <img width="70px" src={Moeda} alt="Icone referente a credito" />
-                        <button type="button" className="botao_calc btn btn-warning" onClick={calcularCredito}>Calcular Pegada de Carbono</button>
+                        <button type="button" className="botao_calc btn btn-warning" onClick={calcularCredito}>Créditos de Carbono Necessários</button>
                         <p className={styles.comentarios_pequenos}>A cada tonelada de CO₂ emitidos, é necessário <strong>1</strong> crédito de carbono para compensar, custando <strong>R$ 53,80</strong> cada.<br/><i>Fonte: <a href="https://credcarbo.com/comprar">CredCarbon</a> atualizado em 18/10/2024</i></p>
                         <div className={styles._resultado}>
                             <h2 id="resultadoCreditoGrande">

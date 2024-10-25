@@ -178,6 +178,7 @@ h1, h2 {
         color: #28a745;
         margin: auto;
         text-align: center;
+        margin-top: 20px;
     }
 }
 
@@ -193,9 +194,10 @@ h1, h2 {
     }
 
     h2{
-        color: #28a745;
+        color: #0d74ce;
         margin: auto;
         text-align: center;
+        margin-top: 20px;
     }
 }
 
