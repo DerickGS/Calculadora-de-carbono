@@ -28,37 +28,37 @@ function ContactPage() {
     return (
             <body>
                 <Header/>
-                    <main className={styles._pageContact}>
-                        <div className={styles._backgroundImage}></div>
-                        <form className={styles._formEmail} action="https://formsubmit.co/derick@eaportal.org" method="POST">
-                            <h3>Conte-nos o que você achou!</h3>
-                            <div className={styles._inputName}>
-                                <div className={styles._formInput}>
-                                    <label>Primeiro nome</label>
-                                    <input type="text" name="first name" placeholder="Nome:" required />
-                                </div>
-                                <div className={styles._formInput}>
-                                    <label>Sobrenome</label>
-                                    <input type="text" name="lastname" placeholder="Sobrenome:" required />
-                                </div>
+                <main className={styles._pageContact}>
+                    <div className={styles._backgroundImage}></div>
+                    <form className={styles._formEmail} action="https://formsubmit.co/derick@eaportal.org" method="POST">
+                        <h3>Conte-nos o que você achou!</h3>
+                        <div className={styles._inputName}>
+                            <div className={styles._formInput}>
+                                <label>Primeiro nome</label>
+                                <input type="text" name="first name" placeholder="Nome:" required />
                             </div>
                             <div className={styles._formInput}>
-                                <label>Endereço de e-mail</label>
-                                <input type="email" name="email" placeholder="Email:" required />
+                                <label>Sobrenome</label>
+                                <input type="text" name="lastname" placeholder="Sobrenome:" required />
                             </div>
-                            <div className={styles._formInput}>
-                                <label>Número de Contato</label>
-                                <input id="phone" value={phone} onChange={handleInputChange} type="tel" name="numeroContato" placeholder="Número de Contato:" required />
-                            </div>
-                            <div className={styles._formInput}>
-                                <label>Mensagem</label>
-                                <textarea name="message" placeholder="Mensagem:" required />
-                            </div>
+                        </div>
+                        <div className={styles._formInput}>
+                            <label>Endereço de e-mail</label>
+                            <input type="email" name="email" placeholder="Email:" required />
+                        </div>
+                        <div className={styles._formInput}>
+                            <label>Número de Contato</label>
+                            <input id="phone" value={phone} onChange={handleInputChange} type="tel" name="numeroContato" placeholder="Número de Contato:" required />
+                        </div>
+                        <div className={styles._formInput}>
+                            <label>Mensagem</label>
+                            <textarea name="message" placeholder="Mensagem:" required />
+                        </div>
 
-                            <button className="btn btn-warning"> <PaperPlaneTilt size={21} /> Enviar Mensagem</button>
-                            <div className={styles.loader}></div>
-                        </form>
-                    </main>
+                        <button className="btn btn-warning"> <PaperPlaneTilt size={21} /> Enviar Mensagem</button>
+                        <div className={styles.loader}></div>
+                    </form>
+                </main>
                 <Footer/>
             </body>
     );

@@ -19,9 +19,9 @@ function CuriosityPage() {
     };
 
     return (
-        <main>
+        <body>
             <Header/>
-            <body className={styles._pageCuriosity}>
+            <main className={styles._pageCuriosity}>
                 <div className={styles._backgroundImage}></div>
                 {/* <samp aria-label="Página atual: Curiosidade"></samp> */}
                 <div className={styles._contentTest}>
@@ -209,9 +209,9 @@ function CuriosityPage() {
                     </div>
 
                 </div>
-            </body>
+            </main>
             <Footer/>
-        </main>
+        </body>
     );
 }
 
