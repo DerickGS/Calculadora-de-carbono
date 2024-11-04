@@ -45,6 +45,8 @@
     
 }   
 
+.desktop{
+}
 .close{
     display: none;
 }
@@ -160,46 +162,4 @@ header {
         width: auto;
         height: 2.2rem;
     }
-}
-
-@media (prefers-color-scheme: dark) {
-    .desktopComponents, .mobileComponents{
-        background: rgb(0, 1, 2 );
-
-        .options{
-            .option{
-                color: rgb(255, 255, 255);
-                margin: 0;
-            }
-            .option:hover{
-                color: rgb(128, 128, 128);
-            }
-            
-            .icon{
-                color: rgb(255, 255, 255);
-            }
-        }
-    }
-    
-    .open{
-        .options_menu, .options_menuMobile{
-            background: rgb(0, 1, 2); 
-            border: unset;
-            p{
-                color: rgb(255, 255, 255);
-            }
-            
-            hr{
-                color: grey;
-            }
-        }
-    }
-
-    .icon{
-        color: rgb(255, 255, 255);
-    }
-    .icon:hover{
-        color: rgb(128, 128, 128);
-    }
-    
 }
