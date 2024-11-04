@@ -13,6 +13,13 @@ body{
   height: auto;
   overflow-x: unset;
   min-height: calc(100vh - 337px); /*100% da tela menos a altura do footer*/ 
+  /* dark */
+  /* background-color: light-dark(#292929, #fff); */
+  /* color: light-dark(#fff, #000); */
+
+  /* light */
+  background-color: light-dark(#fff, #292929,);
+  color: light-dark(#000, #fff);
 }
 
 
